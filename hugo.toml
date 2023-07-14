@@ -186,7 +186,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # subtitle shown in home page (HTML format is supported)
       subtitle = "I am a PhD student at London Business School in the Department of Economics. 
 
-      <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+      <a href="url" link text</a>
       
       I have an interest in studying the interplay between macroeconomics and both inequality and the green transition, examining these relationships through the lens of macroeconomics and macro-finance."
       # whether to use typeit animation for subtitle
