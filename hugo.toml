@@ -213,6 +213,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Social config about the author
   [params.social]
+    lbs = "will-hotten"
     GitHub = "willhotten"
     Linkedin = "will-hotten"
     Accenture = "" 
@@ -221,7 +222,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Facebook = ""
     Telegram = ""
     Medium = ""
-    Gitlab = "abc"
+    Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
