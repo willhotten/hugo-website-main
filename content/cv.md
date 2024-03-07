@@ -25,7 +25,7 @@ draft: false
 
       metaData:{fileName: "CV Will Hotten.pdf"}
 
-    }, { embedMode: "IN-LINE", showFullScreen: true });
+    }, { embedMode: "IN_LINE", showFullScreen: true });
 
   });
 
