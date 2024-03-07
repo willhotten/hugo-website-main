@@ -21,7 +21,7 @@ draft: false
 
     adobeDCView.previewFile({
 
-      content:{location: {url: "https://github.com/willhotten/CV/blob/677e6679bf4f5ad77df92865b7c68071880a36d9/CV%20Will%20Hotten.pdf"}},
+      content:{location: {url: "https://heiman.mit.edu/wp-content/uploads/empty-pdf.pdf"}},
 
       metaData:{fileName: "CV Will Hotten.pdf"}
 
