@@ -21,7 +21,7 @@ draft: false
 
     adobeDCView.previewFile({
 
-      content:{location: {url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+      content:{location: {url: "https://blobby.wsimg.com/go/d9de11f7-2353-4193-a579-9de67e73890f/Coming-Soon.pdf"}},
 
       metaData:{fileName: "CV Will Hotten.pdf"}
 
