@@ -21,11 +21,11 @@ draft: false
 
     adobeDCView.previewFile({
 
-      content:{location: {url: "https://heiman.mit.edu/wp-content/uploads/empty-pdf.pdf"}},
+      content:{location: {url: "https://acrobatservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
 
       metaData:{fileName: "CV Will Hotten.pdf"}
 
-    }, { embedMode: "IN_LINE", showFullScreen: true });
+    }, { embedMode: "LIGHT_BOX", showFullScreen: true });
 
   });
 
