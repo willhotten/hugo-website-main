@@ -7,13 +7,32 @@ draft: false
 
 Coming soon!
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width:100%; height:100%;">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>kekayan's Resume</title>
-</head>
-  <body style="width:100%; height:100%; margin:0;">
-    <iframe src="https://docs.google.com/gview?url=https://github.com/willhotten/CV/blob/main/CV%20Will%20Hotten.pdf=true" style="width:100%; height:100%;" frameborder="0"></iframe>
-  </body>
-</html>
+<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+
+<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+
+<script type="text/javascript">
+
+  document.addEventListener("adobe_dc_view_sdk.ready", function(){
+
+    var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+
+    adobeDCView.previewFile({
+
+      content:{ location:
+
+        { url: "https://github.com/willhotten/CV/blob/main/CV%20Will%20Hotten.pdf"}},
+
+      metaData:{fileName: "Bodea Brochure.pdf"}
+
+    },
+
+    {
+
+      embedMode: "SIZED_CONTAINER"
+
+    });
+
+  });
+
+</script>
