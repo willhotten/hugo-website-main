@@ -17,7 +17,7 @@ draft: false
 
   document.addEventListener("adobe_dc_view_sdk.ready", function(){
 
-    var adobeDCView = new AdobeDC.View({clientId: "<d5c0ca8bef754aecb5f40f45d47c0e90>", divId: "adobe-dc-view"});
+    var adobeDCView = new AdobeDC.View({clientId: "d5c0ca8bef754aecb5f40f45d47c0e90", divId: "adobe-dc-view"});
 
     adobeDCView.previewFile({
 
