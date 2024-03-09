@@ -93,13 +93,13 @@ $(document).ready(function() {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  line-height: 0.5;
+  line-height: 1;
 }
 
 .education-item p {
-  margin: 0;
+  margin: -1;
   padding: 0;
-  line-height: 0.5;
+  line-height: 1;
 }
 
 .download-button {
