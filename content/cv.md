@@ -68,7 +68,7 @@ $(document).ready(function() {
 .timeline-date {
   font-weight: bold;
   position: absolute;
-  left: -80px;
+  left: -100px;
   transform: rotate(-45deg);
   transform-origin: right;
 }
@@ -80,8 +80,7 @@ $(document).ready(function() {
   bottom: 0;
   width: 2px;
   background: #ccc;
-  left: 30px;
-  margin-left: -1px;
+  left: 50%;
 }
 
 .education-item {
@@ -131,8 +130,8 @@ $(document).ready(function() {
   width: 20px;
   height: 20px;
   background: #ccc;
-  left: -40px;
-  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   border-radius: 50%;
 }
 
