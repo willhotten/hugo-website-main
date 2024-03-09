@@ -97,7 +97,7 @@ $(document).ready(function() {
 }
 
 .education-item p {
-  margin: -10;
+  margin: 0;
   padding: 0;
   line-height: 1;
 }
