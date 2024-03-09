@@ -163,87 +163,53 @@ $(document).ready(function() {
   <div class="timeline">
   <div class="education-item">
     <div class="education-header">
-      <img src="logo.png" alt="Logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo">
       <div>
-        <h3>LBS</h3>
-        <p>phd</p>
+        <h3>London Business School</h3>
+        <p>PhD in Economics</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-icon"></div>
       <div class="timeline-content">
         <p class="timeline-date">2022 - Current</p>
-        <p>Description</p>
+        <p>Supervisor: Paolo Surico</p>
       </div>
     </div>
   </div>
   <div class="education-item">
     <div class="education-header">
-      <img src="logo.png" alt="Logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="LSE Logo">
       <div>
-        <h3>LSE</h3>
-        <p>msc</p>
+        <h3>London School of Economics and Political Science</h3>
+        <p>MSc in Economics</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-icon"></div>
       <div class="timeline-content">
         <p class="timeline-date">2019 - 2020</p>
-        <p>Description</p>
       </div>
     </div>
   </div>
   <div class="education-item">
     <div class="education-header">
-      <img src="logo.png" alt="Logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="LSE Logo">
       <div>
-        <h3>LSE</h3>
-        <p>bsc</p>
+        <h3>London School of Economics and Political Science</h3>
+        <p>BSc in Economics</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-icon"></div>
       <div class="timeline-content">
         <p class="timeline-date">2016 - 20179</p>
-        <p>Description</p>
       </div>
     </div>
   </div>
 </div>
     
-  <div class="education-item">
-      <div class="education-header">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo" width="100px">
-        <div>
-          <h3>London Business School</h3>
-          <p>PhD in Economics</p>
-          <p>2022 ‑ Current</p>
-          <p>Supervisor: Paolo Surico</p>
-        </div>
-      </div>
-    </div>
 
-  <div class="education-item">
-    <div class="education-header">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London Business School Logo" width="100px">
-      <div>
-        <h3>London School of Economics and Political Science</h3>
-        <p>MSc in Economics</p>
-        <p>2019 ‑ 2020</p>
-      </div>
-    </div>
-  </div> 
-  
-  <div class="education-item">
-    <div class="education-header">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London Business School Logo" width="100px">
-      <div>
-        <h3>London School of Economics and Political Science</h3>
-        <p>BSc in Economics</p>
-        <p>2016 ‑ 2019</p>
-      </div>
-    </div>
-  </div> 
 
 </div>
 </div>
