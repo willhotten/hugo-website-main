@@ -167,21 +167,45 @@ $(document).ready(function() {
 </div>
 
 <div id="teaching" class="tab_content">
-    ## London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
-    
-    - Advanced course in macroeconomics for PhD students, instructed by Paolo Surico
+
+  <div class="education-item">
+    <div class="education-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo">
+      <div>
+        <h3>London Business School</h3>
+        <p>Teaching Assistant for P233 Macreoconomics II</p>
+        <p>2024 - Current</p>
+        <p>Instructor: Paolo Surico</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <div id="other_positions" class="tab_content">
-    ## PA Consulting London - Economist (2021 ‑ 2022)
 
-    ## London Business School - Research Assistant to Hélène Rey and Vania Stavrakeva (2020 ‑ 2021)
+  <div class="education-item">
+    <div class="education-header">
+    <img src="https://cdn-ukwest.onetrust.com/logos/f79a60b0-1d16-4114-aa58-3f05dec13dd2/456b4352-7aaf-4e03-b3c8-439d63b7e437/0daef2ad-b42e-4bdc-8290-73d8f8f843da/PA_Logo_2022_800px.png" alt="PA Consulting Logo">
+      <div>
+        <h3>PA Consulting</h3>
+        <p>Economist</p>
+        <p>2021 - 2022</p>
+      </div>
+    </div>
+  </div>
 
-    ## Volunteering - Various: 
+  <div class="education-item">
+    <div class="education-header">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo">
+      <div>
+        <h3>London Business School</h3>
+        <p>Research Assistant to Hélène Rey and Vania Stavrakeva</p>
+        <p>2020 - 2021</p>
+      </div>
+    </div>
+  </div>
 
-    - Career Ready, Mentor
-    - Citizens Advice Basingstoke, Gateway Assessor
-    - Action Tutoring, Maths Tutor
 </div>
 
 
