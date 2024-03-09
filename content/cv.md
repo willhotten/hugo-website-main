@@ -60,21 +60,6 @@ $(document).ready(function() {
   background-color: transparent;
 }
 
-.timeline {
-  position: relative;
-  padding-left: 100px;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #ccc;
-  left: 100px;
-}
-
 .education-item {
   margin-bottom: 20px;
   padding: 20px;
@@ -113,34 +98,6 @@ $(document).ready(function() {
   margin: 0;
 }
 
-.timeline-item {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.timeline-icon {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #ccc;
-  left: 90px;
-  top: 10px;
-  border-radius: 50%;
-}
-
-.timeline-content {
-  margin-left: 0;
-}
-
-.timeline-date {
-  font-weight: bold;
-  position: absolute;
-  left: 50px;
-  top: 10px;
-  transform: rotate(-45deg);
-  transform-origin: right;
-}
-
 .download-button {
   display: block;
   width: 200px;
@@ -168,53 +125,40 @@ $(document).ready(function() {
 <div class="tab_container">
   <div id="education" class="tab_content">
 
-  <div class="timeline">
   <div class="education-item">
     <div class="education-header">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo">
       <div>
         <h3>London Business School</h3>
         <p>PhD in Economics</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-icon"></div>
-      <div class="timeline-content">
-        <p class="timeline-date">2022 - Current</p>
+        <p>2022 - Current</p>
         <p>Supervisor: Paolo Surico</p>
       </div>
     </div>
   </div>
+
   <div class="education-item">
     <div class="education-header">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="LSE Logo">
       <div>
         <h3>London School of Economics and Political Science</h3>
         <p>MSc in Economics</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-icon"></div>
-      <div class="timeline-content">
-        <p class="timeline-date">2019 - 2020</p>
+        <p>2019 - 2020</p>
       </div>
     </div>
   </div>
+
   <div class="education-item">
     <div class="education-header">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="LSE Logo">
       <div>
         <h3>London School of Economics and Political Science</h3>
         <p>BSc in Economics</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-icon"></div>
-      <div class="timeline-content">
-        <p class="timeline-date">2016 - 20179</p>
+        <p>2016 - 2019</p>
       </div>
     </div>
   </div>
+
 </div>
     
 
