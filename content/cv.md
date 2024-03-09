@@ -182,4 +182,4 @@ $(document).ready(function() {
 }
 </style>
 
-<a href="/hugo-main/pdfs/CV Will Hotten.pdf" download>Download my CV</a>
+<a href="https://github.com/willhotten/blob/master/hugo-main/pdfs/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
