@@ -54,10 +54,6 @@ $(document).ready(function() {
   font-weight: bold;
 }
 
-.tabs li a:hover {
-  background-color: #ccc;
-}
-
 .tab_content {
   display: none;
   padding: 20px;
@@ -77,24 +73,64 @@ $(document).ready(function() {
   align-items: center;
 }
 
+.education-header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
 .education-header div {
   display: flex;
   flex-direction: column;
-}
-
-.education-header img {
-  margin-right: 20px;
 }
 
 .education-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .education-item p {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ccc;
+  left: 30px;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  left: 20px;
+  margin-left: -10px;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  margin-left: 60px;
+}
+
+.timeline-date {
+  font-weight: bold;
 }
 
 .download-button {
@@ -123,7 +159,28 @@ $(document).ready(function() {
 
 <div class="tab_container">
   <div id="education" class="tab_content">
-    <div class="education-item">
+
+  <div class="education-item">
+  <div class="education-header">
+    <img src="logo.png" alt="Logo">
+    <div>
+      <h3>University Name</h3>
+      <p>Qualification</p>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <p class="timeline-date">Start Date - End Date</p>
+        <p>Description</p>
+      </div>
+    </div>
+    <!-- More timeline items... -->
+  </div>
+</div>
+    
+  <div class="education-item">
       <div class="education-header">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo" width="100px">
         <div>
