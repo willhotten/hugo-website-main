@@ -100,8 +100,8 @@ $(document).ready(function() {
 }
 
 .education-header img {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
 }
 
@@ -131,7 +131,6 @@ $(document).ready(function() {
   width: 20px;
   height: 20px;
   background: #ccc;
-  left: -30px;
   margin-left: -10px;
   border-radius: 50%;
 }
