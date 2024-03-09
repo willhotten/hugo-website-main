@@ -97,8 +97,8 @@ $(document).ready(function() {
 }
 
 .education-item p {
-  margin: -1;
-  padding: -5;
+  margin: -10;
+  padding: 0;
   line-height: 1;
 }
 
