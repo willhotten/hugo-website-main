@@ -68,9 +68,9 @@ $(document).ready(function() {
 .timeline-date {
   font-weight: bold;
   position: absolute;
-  left: -100px;
-  width: 80px;
-  text-align: right;
+  left: -80px;
+  transform: rotate(-45deg);
+  transform-origin: right;
 }
 
 .timeline::before {
@@ -131,7 +131,8 @@ $(document).ready(function() {
   width: 20px;
   height: 20px;
   background: #ccc;
-  margin-left: -10px;
+  left: -40px;
+  top: 10px;
   border-radius: 50%;
 }
 
