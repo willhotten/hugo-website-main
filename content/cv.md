@@ -66,32 +66,19 @@ $(document).ready(function() {
 <div class="tab_container">
   <div id="education" class="tab_content">
     <div class="education-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo" width="100px">
-      <h3>London Business School - PhD in Economics (2022 ‑ Current)</h3>
-      <ul>
-        <li>2nd year PhD student in the Economics department</li>
-        <li>Supervisor: Paolo Surico</li>
-        <li>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</li>
-      </ul>
+      <div class="education-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo" width="100px">
+        <div>
+          <h3>London Business School</h3>
+          <p>PhD in Economics</p>
+          <p>2022 ‑ Current</p>
+        </div>
+      </div>
+      <p>2nd year PhD student in the Economics department</p>
+      <p>Supervisor: Paolo Surico</p>
+      <p>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</p>
     </div>
-
-<div class="education-item">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo" width="100px">
-  <h3>London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)</h3>
-  <ul>
-    <li>Grade: Distinction</li>
-    <li>Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics</li>
-  </ul>
-</div>
-
-<div class="education-item">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo" width="100px">
-  <h3>London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)</h3>
-  <ul>
-    <li>Grade: First‑Class Honours</li>
-    <li>Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics</li>
-  </ul>
-</div>
+    <!-- Repeat for other education items -->
 </div>
 </div>
 
@@ -104,19 +91,23 @@ $(document).ready(function() {
   font-family: "Arial", sans-serif;
 }
 
+.education-header {
+  display: flex;
+  align-items: center;
+}
+
+.education-header img {
+  margin-right: 20px;
+}
+
 .education-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-.education-item ul {
-  list-style-type: none;
-  margin-top: 0;
-  padding-left: 20px;
-}
-
-.education-item li {
+.education-item p {
   margin-bottom: 5px;
 }
 </style>
