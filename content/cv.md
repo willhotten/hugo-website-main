@@ -123,7 +123,7 @@ $(document).ready(function() {
   <li><a href="#other_positions">Other Positions</a></li>
 </ul>
 
-<div class="tab_container">
+
 
 <div id="education" class="tab_content">
 
@@ -163,11 +163,6 @@ $(document).ready(function() {
 
 </div>
     
-
-
-</div>
-</div>
-
 <div id="teaching" class="tab_content">
 
   <div class="education-item">
