@@ -78,7 +78,31 @@ $(document).ready(function() {
       <p>Supervisor: Paolo Surico</p>
       <p>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</p>
     </div>
-    <!-- Repeat for other education items -->
+
+  <div class="education-item">
+    <div class="education-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London Business School Logo" width="100px">
+      <div>
+        <h3>London School of Economics and Political Science</h3>
+        <p>MSc in Economics</p>
+        <p>2019 ‑ 2020</p>
+      </div>
+    </div>
+    <p>AAA</p>
+  </div> 
+  
+  <div class="education-item">
+    <div class="education-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London Business School Logo" width="100px">
+      <div>
+        <h3>London School of Economics and Political Science</h3>
+        <p>BSc in Economics</p>
+        <p>2016 ‑ 2019</p>
+      </div>
+    </div>
+    <p>AAA</p>
+  </div> 
+
 </div>
 </div>
 
@@ -158,4 +182,4 @@ $(document).ready(function() {
 }
 </style>
 
-<a href="https://github.com/willhotten/CV/blob/677e6679bf4f5ad77df92865b7c68071880a36d9/CV%20Will%20Hotten.pdf" class="download-button">Download CV</a>
+<a href="/hugo-main/pdfs/CV Will Hotten.pdf" download>Download my CV</a>
