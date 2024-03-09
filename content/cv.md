@@ -73,23 +73,23 @@ $(document).ready(function() {
         <li>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</li>
       </ul>
     </div>
-    
-    <div class="education-item">
-      <h3>London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)</h3>
-      <ul>
-        <li>Grade: Distinction</li>
-        <li>Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics</li>
-      </ul>
-    </div>
-    
-    <div class="education-item">
-      <h3>London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)</h3>
-      <ul>
-        <li>Grade: First‑Class Honours</li>
-        <li>Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics</li>
-      </ul>
-    </div>
-  </div>
+
+<div class="education-item">
+  <h3>London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)</h3>
+  <ul>
+    <li>Grade: Distinction</li>
+    <li>Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics</li>
+  </ul>
+</div>
+
+<div class="education-item">
+  <h3>London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)</h3>
+  <ul>
+    <li>Grade: First‑Class Honours</li>
+    <li>Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics</li>
+  </ul>
+</div>
+</div>
 </div>
 
 <style>
