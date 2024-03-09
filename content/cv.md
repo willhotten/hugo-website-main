@@ -62,6 +62,7 @@ $(document).ready(function() {
 
 .timeline {
   position: relative;
+  padding-left: 60px;
 }
 
 .timeline::before {
@@ -81,11 +82,13 @@ $(document).ready(function() {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-family: 'Source Sans 3', sans-serif;
+  background: #fff;
 }
 
 .education-header {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .education-header img {
@@ -97,17 +100,17 @@ $(document).ready(function() {
 .education-header div {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .education-item h3 {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin: 0;
 }
 
 .education-item p {
-  margin-bottom: 5px;
+  margin: 0;
 }
 
 .timeline-item {
@@ -120,13 +123,13 @@ $(document).ready(function() {
   width: 20px;
   height: 20px;
   background: #ccc;
-  left: 20px;
+  left: -30px;
   margin-left: -10px;
   border-radius: 50%;
 }
 
 .timeline-content {
-  margin-left: 60px;
+  margin-left: 0;
 }
 
 .timeline-date {
