@@ -66,7 +66,7 @@ $(document).ready(function() {
 <div class="tab_container">
   <div id="education" class="tab_content">
     <div class="education-item">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg/1920px-RS9327_LBS_Standard_Logo_RGB_AW-hpr.jpg" alt="London Business School Logo" width="100px">
       <h3>London Business School - PhD in Economics (2022 ‑ Current)</h3>
       <ul>
         <li>2nd year PhD student in the Economics department</li>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     </div>
 
 <div class="education-item">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo" width="100px">
   <h3>London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)</h3>
   <ul>
     <li>Grade: Distinction</li>
@@ -85,7 +85,7 @@ $(document).ready(function() {
 </div>
 
 <div class="education-item">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/LSE_Logo.svg/638px-LSE_Logo.svg.png" alt="London School of Economics and Political Science Logo" width="100px">
   <h3>London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)</h3>
   <ul>
     <li>Grade: First‑Class Honours</li>
