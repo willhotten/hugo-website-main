@@ -65,6 +65,14 @@ $(document).ready(function() {
   padding-left: 60px;
 }
 
+.timeline-date {
+  font-weight: bold;
+  position: absolute;
+  left: -100px;
+  width: 80px;
+  text-align: right;
+}
+
 .timeline::before {
   content: '';
   position: absolute;
