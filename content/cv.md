@@ -107,12 +107,15 @@ $(document).ready(function() {
 </div>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
 .education-item {
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-family: "Arial", sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 .education-header {
@@ -125,7 +128,7 @@ $(document).ready(function() {
 }
 
 .education-item h3 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
