@@ -65,22 +65,57 @@ $(document).ready(function() {
 
 <div class="tab_container">
   <div id="education" class="tab_content">
-    ##London Business School - PhD in Economics (2022 ‑ Current)
-
-    - 2nd year PhD student in the Economics department
-    - Supervisor: Paolo Surico
-    - Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy
-
-    ## London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)
-
-    - Grade: Distinction
-    - Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics
-
-    ## London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)
-
-    - Grade: First‑Class Honours
-    - Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics
+    <div class="education-item">
+      <h3>London Business School - PhD in Economics (2022 ‑ Current)</h3>
+      <ul>
+        <li>2nd year PhD student in the Economics department</li>
+        <li>Supervisor: Paolo Surico</li>
+        <li>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</li>
+      </ul>
+    </div>
+    
+    <div class="education-item">
+      <h3>London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)</h3>
+      <ul>
+        <li>Grade: Distinction</li>
+        <li>Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics</li>
+      </ul>
+    </div>
+    
+    <div class="education-item">
+      <h3>London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)</h3>
+      <ul>
+        <li>Grade: First‑Class Honours</li>
+        <li>Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics</li>
+      </ul>
+    </div>
   </div>
+</div>
+
+<style>
+.education-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+}
+
+.education-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.education-item ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.education-item li {
+  margin-bottom: 5px;
+}
+</style>
 
   <div id="teaching" class="tab_content">
     ## London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
