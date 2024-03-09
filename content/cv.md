@@ -65,60 +65,46 @@ $(document).ready(function() {
 
 <div class="tab_container">
   <div id="education" class="tab_content">
-    ## Degree Name - University Name (Year)
+    ##London Business School - PhD in Economics (2022 ‑ Current)
 
-    - Brief description of your degree program
-    - Relevant coursework or projects
-
-    London Business School - PhD in Economics (2022 ‑ Current)
     - 2nd year PhD student in the Economics department
     - Supervisor: Paolo Surico
     - Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy
 
-    London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)
+    ## London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)
+
     - Grade: Distinction
     - Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics
 
-    London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)
+    ## London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)
+
     - Grade: First‑Class Honours
     - Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics
   </div>
 
   <div id="teaching" class="tab_content">
-    ## Course Name - University Name (Year)
-
-    - Description of your role as a teaching assistant or instructor
-    - Responsibilities and accomplishments
-
-    London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
+    ## London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
+    
     - Advanced course in macroeconomics for PhD students, instructed by Paolo Surico
   </div>
 
   <div id="other_positions" class="tab_content">
-    ## Internship - Company Name (Year)
+    ## PA Consulting London - Economist (2021 ‑ 2022)
 
-    - Description of your role and responsibilities
-    - Key achievements or projects
+    ## London Business School - Research Assistant to Hélène Rey and Vania Stavrakeva (2020 ‑ 2021)
 
-    PA Consulting London - Economist (2021 ‑ 2022)
+    ## Volunteering - Various: 
 
-    London Business School - Research Assistant to Hélène Rey and Vania Stavrakeva (2020 ‑ 2021)
-
-    Volunteering - Various: 
     - Career Ready, Mentor
     - Citizens Advice Basingstoke, Gateway Assessor
     - Action Tutoring, Maths Tutor
   </div>
 
   <div id="stipends_awards" class="tab_content">
-    - London Business School - PhD stipend (2022 - 2027)
+    ## London Business School - PhD stipend (2022 - 2027)
   </div>
 
   <div id="computer_skills" class="tab_content">
-    - Skill 1: Description of your proficiency level and relevant experience
-    - Skill 2: Description of your proficiency level and relevant experience
-    - Skill 3: Description of your proficiency level and relevant experience
-
     Programming: MATLAB, Python, R, Stata
     Miscellaneous: LATEX, Microsoft Office, Git., Bloomberg, Refinitiv Eikon
   </div>
@@ -141,7 +127,7 @@ $(document).ready(function() {
 }
 </style>
 
-<a href="https://github.com/yourusername/yourcv.pdf" class="download-button">Download CV</a>
+<a href="https://github.com/willhotten/CV/blob/677e6679bf4f5ad77df92865b7c68071880a36d9/CV%20Will%20Hotten.pdf" class="download-button">Download CV</a>
 
 
 </body>
