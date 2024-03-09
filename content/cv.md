@@ -66,7 +66,7 @@ $(document).ready(function() {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-family: 'Source Sans 3', sans-serif;
-  background: #fff;
+  background: transparent;
   position: relative;
 }
 
@@ -77,8 +77,8 @@ $(document).ready(function() {
 }
 
 .education-header img {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
 }
 
@@ -116,7 +116,7 @@ $(document).ready(function() {
 }
 
 .download-button:hover {
-  background-color: #555;
+  background-color: #333;
 }
 </style>
 
@@ -210,4 +210,4 @@ $(document).ready(function() {
 </div>
 
 
-<a href="https://github.com/willhotten/hugo-website-main/blob/c4bfa6fa9845aafb090605ef1b5c02bda3ed0b56/pdfs/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
+<a href="https://github.com/willhotten/CV/blob/677e6679bf4f5ad77df92865b7c68071880a36d9/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
