@@ -93,7 +93,7 @@ $(document).ready(function() {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  line-height: 0.25;
+  line-height: 0.5;
 }
 
 .education-item p {
