@@ -75,8 +75,6 @@ $(document).ready(function() {
 .education-header div {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100px;
 }
 
 .education-header img {
