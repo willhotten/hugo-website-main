@@ -72,7 +72,7 @@ $(document).ready(function() {
   bottom: 0;
   width: 2px;
   background: #ccc;
-  left: 50px;
+  left: 100px;
 }
 
 .education-item {
@@ -123,7 +123,7 @@ $(document).ready(function() {
   width: 20px;
   height: 20px;
   background: #ccc;
-  left: -30px;
+  left: 90px;
   top: 10px;
   border-radius: 50%;
 }
@@ -135,7 +135,7 @@ $(document).ready(function() {
 .timeline-date {
   font-weight: bold;
   position: absolute;
-  left: -100px;
+  left: 50px;
   top: 10px;
   transform: rotate(-45deg);
   transform-origin: right;
