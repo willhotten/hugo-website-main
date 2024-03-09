@@ -25,23 +25,28 @@ $(document).ready(function() {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
 .tabs {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 .tabs li {
   display: inline-block;
-  margin-right: 10px;
+  margin: 5px;
 }
 
 .tabs li a {
   display: block;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: transparent;
   color: #333;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 .tabs li a:hover {
@@ -51,7 +56,59 @@ $(document).ready(function() {
 .tab_content {
   display: none;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: transparent;
+}
+
+.education-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+}
+
+.education-header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.education-header img {
+  margin-right: 20px;
+}
+
+.education-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.education-item p {
+  margin-bottom: 5px;
+}
+
+.download-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.download-button:hover {
+  background-color: #555;
 }
 </style>
 
@@ -84,7 +141,6 @@ $(document).ready(function() {
         <p>2019 ‑ 2020</p>
       </div>
     </div>
-    <p>AAA</p>
   </div> 
   
   <div class="education-item">
@@ -96,45 +152,10 @@ $(document).ready(function() {
         <p>2016 ‑ 2019</p>
       </div>
     </div>
-    <p>AAA</p>
   </div> 
 
 </div>
 </div>
-
-<style>
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
-
-.education-item {
-  margin-bottom: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Source Sans 3', sans-serif;
-}
-
-.education-header {
-  display: flex;
-  align-items: center;
-}
-
-.education-header img {
-  margin-right: 20px;
-}
-
-.education-item h3 {
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.education-item p {
-  margin-bottom: 5px;
-}
-</style>
-
 
 <div id="teaching" class="tab_content">
     ## London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
@@ -154,22 +175,5 @@ $(document).ready(function() {
     - Action Tutoring, Maths Tutor
 </div>
 
-<style>
-.download-button {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
-.download-button:hover {
-  background-color: #555;
-}
-</style>
 
 <a href="https://github.com/willhotten/hugo-website-main/blob/c4bfa6fa9845aafb090605ef1b5c02bda3ed0b56/pdfs/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
