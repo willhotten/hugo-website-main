@@ -117,13 +117,14 @@ $(document).ready(function() {
 }
 </style>
 
-  <div id="teaching" class="tab_content">
+
+<div id="teaching" class="tab_content">
     ## London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
     
     - Advanced course in macroeconomics for PhD students, instructed by Paolo Surico
-  </div>
+</div>
 
-  <div id="other_positions" class="tab_content">
+<div id="other_positions" class="tab_content">
     ## PA Consulting London - Economist (2021 ‑ 2022)
 
     ## London Business School - Research Assistant to Hélène Rey and Vania Stavrakeva (2020 ‑ 2021)
@@ -133,16 +134,16 @@ $(document).ready(function() {
     - Career Ready, Mentor
     - Citizens Advice Basingstoke, Gateway Assessor
     - Action Tutoring, Maths Tutor
-  </div>
+</div>
 
-  <div id="stipends_awards" class="tab_content">
+<div id="stipends_awards" class="tab_content">
     ## London Business School - PhD stipend (2022 - 2027)
-  </div>
+</div>
 
-  <div id="computer_skills" class="tab_content">
+<div id="computer_skills" class="tab_content">
     Programming: MATLAB, Python, R, Stata
     Miscellaneous: LATEX, Microsoft Office, Git., Bloomberg, Refinitiv Eikon
-  </div>
+</div>
 
 <style>
 .download-button {
