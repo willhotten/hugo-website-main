@@ -77,8 +77,8 @@ $(document).ready(function() {
 }
 
 .education-header img {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   margin-right: 20px;
 }
 
