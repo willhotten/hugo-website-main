@@ -97,6 +97,7 @@ $(document).ready(function() {
 .education-item p {
   margin: 0;
   padding: 0;
+  line-height: 0.6;
 }
 
 .download-button {
