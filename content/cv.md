@@ -60,6 +60,21 @@ $(document).ready(function() {
   background-color: transparent;
 }
 
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ccc;
+  left: 30px;
+  margin-left: -1px;
+}
+
 .education-item {
   margin-bottom: 20px;
   padding: 20px;
@@ -93,21 +108,6 @@ $(document).ready(function() {
 
 .education-item p {
   margin-bottom: 5px;
-}
-
-.timeline {
-  position: relative;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #ccc;
-  left: 30px;
-  margin-left: -1px;
 }
 
 .timeline-item {
@@ -160,23 +160,54 @@ $(document).ready(function() {
 <div class="tab_container">
   <div id="education" class="tab_content">
 
-  <div class="education-item">
-  <div class="education-header">
-    <img src="logo.png" alt="Logo">
-    <div>
-      <h3>University Name</h3>
-      <p>Qualification</p>
-    </div>
-  </div>
   <div class="timeline">
+  <div class="education-item">
+    <div class="education-header">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h3>LBS</h3>
+        <p>phd</p>
+      </div>
+    </div>
     <div class="timeline-item">
       <div class="timeline-icon"></div>
       <div class="timeline-content">
-        <p class="timeline-date">Start Date - End Date</p>
+        <p class="timeline-date">2022 - Current</p>
         <p>Description</p>
       </div>
     </div>
-    <!-- More timeline items... -->
+  </div>
+  <div class="education-item">
+    <div class="education-header">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h3>LSE</h3>
+        <p>msc</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <p class="timeline-date">2019 - 2020</p>
+        <p>Description</p>
+      </div>
+    </div>
+  </div>
+  <div class="education-item">
+    <div class="education-header">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h3>LSE</h3>
+        <p>bsc</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-icon"></div>
+      <div class="timeline-content">
+        <p class="timeline-date">2016 - 20179</p>
+        <p>Description</p>
+      </div>
+    </div>
   </div>
 </div>
     
