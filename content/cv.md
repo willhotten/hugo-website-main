@@ -49,6 +49,11 @@ $(document).ready(function() {
   border-radius: 50px;
 }
 
+.tabs li a:hover, .tabs li.active a {
+  background-color: #ccc;
+  font-weight: bold;
+}
+
 .tabs li a:hover {
   background-color: #ccc;
 }
@@ -89,7 +94,7 @@ $(document).ready(function() {
 }
 
 .education-item p {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .download-button {
