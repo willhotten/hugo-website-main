@@ -96,6 +96,7 @@ $(document).ready(function() {
 
 .education-item p {
   margin: 0;
+  padding: 0;
 }
 
 .download-button {
@@ -123,7 +124,8 @@ $(document).ready(function() {
 </ul>
 
 <div class="tab_container">
-  <div id="education" class="tab_content">
+
+<div id="education" class="tab_content">
 
   <div class="education-item">
     <div class="education-header">
