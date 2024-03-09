@@ -59,8 +59,6 @@ $(document).ready(function() {
   <li class="active"><a href="#education">Education</a></li>
   <li><a href="#teaching">Teaching</a></li>
   <li><a href="#other_positions">Other Positions</a></li>
-  <li><a href="#stipends_awards">Stipends and Awards</a></li>
-  <li><a href="#computer_skills">Computer Skills</a></li>
 </ul>
 
 <div class="tab_container">
@@ -72,11 +70,9 @@ $(document).ready(function() {
           <h3>London Business School</h3>
           <p>PhD in Economics</p>
           <p>2022 ‑ Current</p>
+          <p>Supervisor: Paolo Surico</p>
         </div>
       </div>
-      <p>2nd year PhD student in the Economics department</p>
-      <p>Supervisor: Paolo Surico</p>
-      <p>Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy</p>
     </div>
 
   <div class="education-item">
@@ -158,15 +154,6 @@ $(document).ready(function() {
     - Action Tutoring, Maths Tutor
 </div>
 
-<div id="stipends_awards" class="tab_content">
-    ## London Business School - PhD stipend (2022 - 2027)
-</div>
-
-<div id="computer_skills" class="tab_content">
-    Programming: MATLAB, Python, R, Stata
-    Miscellaneous: LATEX, Microsoft Office, Git., Bloomberg, Refinitiv Eikon
-</div>
-
 <style>
 .download-button {
   display: block;
@@ -185,4 +172,4 @@ $(document).ready(function() {
 }
 </style>
 
-<a href="https://github.com/willhotten/blob/master/hugo-main/pdfs/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
+<a href="https://github.com/willhotten/hugo-website-main/blob/c4bfa6fa9845aafb090605ef1b5c02bda3ed0b56/pdfs/CV%20Will%20Hotten.pdf" class="download-button">Download full CV</a>
