@@ -69,6 +69,19 @@ $(document).ready(function() {
 
     - Brief description of your degree program
     - Relevant coursework or projects
+
+    London Business School - PhD in Economics (2022 ‑ Current)
+    - 2nd year PhD student in the Economics department
+    - Supervisor: Paolo Surico
+    - Research interests: Inequality, Heterogeneity in Macroeconomics, Financial Macroeconomics, Climate Policy
+
+    London School of Economics and Political Science - MSc in Economics (2019 ‑ 2020)
+    - Grade: Distinction
+    - Courses: Microeconomics, Macroeconomics, Econometrics, Monetary Economics
+
+    London School of Economics and Political Science - BSc in Economics (2016 ‑ 2019)
+    - Grade: First‑Class Honours
+    - Electives: Advanced Economic Analysis, International Economics, Industrial Economics, Monetary Economics
   </div>
 
   <div id="teaching" class="tab_content">
@@ -76,6 +89,9 @@ $(document).ready(function() {
 
     - Description of your role as a teaching assistant or instructor
     - Responsibilities and accomplishments
+
+    London Business School - Teaching assistant for P233 Macroeconomics II (PhD)
+    - Advanced course in macroeconomics for PhD students, instructed by Paolo Surico
   </div>
 
   <div id="other_positions" class="tab_content">
@@ -83,19 +99,50 @@ $(document).ready(function() {
 
     - Description of your role and responsibilities
     - Key achievements or projects
+
+    PA Consulting London - Economist (2021 ‑ 2022)
+
+    London Business School - Research Assistant to Hélène Rey and Vania Stavrakeva (2020 ‑ 2021)
+
+    Volunteering - Various: 
+    - Career Ready, Mentor
+    - Citizens Advice Basingstoke, Gateway Assessor
+    - Action Tutoring, Maths Tutor
   </div>
 
   <div id="stipends_awards" class="tab_content">
-    - Award 1: Description of the award and its significance (Year)
-    - Award 2: Description of the award and its significance (Year)
-    - Award 3: Description of the award and its significance (Year)
+    - London Business School - PhD stipend (2022 - 2027)
   </div>
 
   <div id="computer_skills" class="tab_content">
     - Skill 1: Description of your proficiency level and relevant experience
     - Skill 2: Description of your proficiency level and relevant experience
     - Skill 3: Description of your proficiency level and relevant experience
+
+    Programming: MATLAB, Python, R, Stata
+    Miscellaneous: LATEX, Microsoft Office, Git., Bloomberg, Refinitiv Eikon
   </div>
+
+<style>
+.download-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #555;
+}
+</style>
+
+<a href="https://github.com/yourusername/yourcv.pdf" class="download-button">Download CV</a>
+
 
 </body>
 
