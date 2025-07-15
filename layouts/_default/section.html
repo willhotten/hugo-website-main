@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="single">
+  <div class="single-title">
+    <h1>Research Projects</h1>
+  </div>
+
+  <div class="single-content">
+    {{ if .Pages }}
+      <ul>
+        {{ range .Pages }}
+          <li>
+            <strong>{{ .Title }}</strong><br />
+            <small>{{ .Params.abstract }}</small>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p><em>No child pages found under /content/research/</em></p>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

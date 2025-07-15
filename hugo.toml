@@ -38,32 +38,30 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Menu config
 [menu]
-  [[menu.main]]    
-    [[menu.main]]
-    weight = 1
-    identifier = "CV"
-    # you can add extra information before/after the name (HTML format is supported), such as icons
-    pre = ""
-    post = ""
-    name = "CV"
-    url = "/cv/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    [[menu.main]]
-    weight = 2
-    identifier = "Research"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Research"
-    url = "/research/"
-    # title will be shown when you hover on this menu link
-    title = ""
+  [[menu.main]]
+  weight = 1
+  identifier = "CV"
+  name = "CV"
+  url = "/cv/"
+  title = ""
+
+  [[menu.main]]
+  weight = 2
+  identifier = "Research"
+  name = "Research"
+  url = "/research/"
+  title = ""
+
+  [[menu.main]]
+  weight = 3
+  identifier = "Teaching"
+  name = "Teaching"
+  url = "/teaching/"
+  title = ""
 
 [params]
   # site default theme ["auto", "light", "dark"]
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   #  which hash function used for SRI, when empty, no SRI is used
@@ -72,11 +70,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "My cool site"
+  title = "Will Hotten's website"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "Will Hotten's website"
   # website images for Open Graph and Twitter Cards
   images = ["/android-chrome-512x512.png"]
+  # load custom head
+  customHead = ["head/custom.html"]
 
   # Header config
   [params.header]
@@ -184,7 +184,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "I am a PhD student at <a href=\"https://www.london.edu/\">London Business School</a> in the <a href=\"https://www.london.edu/faculty-and-research/economics/\">Department of Economics</a>. I am interested in researching the effect of household and firm heterogeneity on the transmission of macroeconomic and climate policies."
+      subtitle = "I am a PhD student at <a href=\"https://www.london.edu/\">London Business School</a> in the <a href=\"https://www.london.edu/faculty-and-research/economics/\">Department of Economics</a>. I am an applied macroeconomist interested in innovation and the climate transition, with a focus on the heterogeneous effects of monetary and fiscal policy on firm behaviour and long-run outcomes."
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
@@ -456,12 +456,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         lightTheme = "light"
         darkTheme = "dark"
     #  Third-party library config
-    [params.page.library]
       [params.page.library.css]
-        # someCSS = "some.css"
-        # located in "assets/"
-        # Or
-        # someCSS = "https://cdn.example.com/some.css"
+        custom = "css/custom.css"
       [params.page.library.js]
         # someJavascript = "some.js"
         # located in "assets/"
@@ -479,13 +475,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  TypeIt config
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
-    speed = 10
+    speed = 5
     # blinking speed of the cursor (measured in milliseconds)
-    cursorSpeed = 1000
+    cursorSpeed = 50
     # character used for the cursor (HTML format is supported)
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-    duration = 0
+    duration = 100000
 
   # Site verification code config for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]

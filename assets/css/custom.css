@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&family=Newsreader:wght@500;600&display=swap');
+
+/* === Base Typography === */
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.research-header h1,
+.research-card h3,
+.site-title,
+a[title="Will Hotten"],
+a.menu-item {
+  font-family: 'Newsreader', serif !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.3px !important;
+}
+
+/* === Navigation with animated underline === */
+a.menu-item {
+  position: relative;
+  font-family: 'Newsreader', serif !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.3px !important;
+  font-size: 1rem !important;
+  padding: 0.25rem 0.6rem !important;
+  line-height: 1.4 !important;
+  color: #222 !important;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+a.menu-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #25476a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease-in-out;
+}
+
+a.menu-item:hover::after,
+a.menu-item.active::after {
+  transform: scaleX(1);
+}
+
+a.menu-item:hover {
+  color: #25476a !important;
+}
+
+a.menu-item.active {
+  color: #25476a !important;
+  font-weight: 400 !important;
+}
+
+a.theme-switch,
+span.menu-item.delimiter {
+  display: none !important;
+}
+
+/* === Layout cleanup === */
+.single-title,
+.single .single-header,
+.page-header {
+  display: none;
+}
+
+.single hr:first-of-type,
+.single > hr:first-of-type,
+main hr:first-of-type {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.single-header,
+.header-wrapper,
+.page-header,
+.header {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* === Research Page === */
+.research-header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.research-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.research-card {
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.research-card h3 {
+  font-family: 'Epilogue', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #25476a;
+}
+
+.research-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.research-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #25476a;
+}
+
+.research-card.disabled {
+  opacity: 0.75;
+  pointer-events: none;
+  background-color: #f5f5f5;
+}
+
+.research-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  object-fit: cover;
+}
+
+/* === CV Page === */
+.cv-header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.cv-header h1 {
+  font-family: 'Newsreader', serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.cv-header p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.cv-tabs {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cv-tabs .tab {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  padding: 0.6rem 1.4rem;
+  margin: 0 0.4rem;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cv-tabs .tab:hover {
+  background-color: #f0f0f0;
+}
+
+.cv-tabs .tab.active {
+  background-color: #25476a;
+  color: #fff;
+  border-color: #25476a;
+}
+
+.cv-tab-content {
+  display: none;
+  animation: fadeIn 0.3s ease;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.cv-tab-content.active {
+  display: block;
+}
+
+.cv-tab-content:nth-of-type(odd) {
+  background-color: #fafafa;
+}
+
+.education-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.education-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.education-header img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.education-header h3 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.education-item p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0.2rem 0;
+}
+
+.download-button {
+  display: block;
+  margin: 3rem auto 0;
+  text-align: center;
+  width: fit-content;
+  padding: 0.6rem 1.5rem;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  font-family: 'Epilogue', sans-serif;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.download-button:hover {
+  background-color: #25476a;
+  color: #fff;
+  border-color: #25476a;
+}
+
+/* === Animation === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
