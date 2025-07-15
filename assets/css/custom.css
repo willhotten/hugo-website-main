@@ -288,3 +288,60 @@ main hr:first-of-type {
   from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* === MOBILE IMPROVEMENTS === */
+@media (max-width: 600px) {
+
+  /* 1. Make tabs scroll horizontally */
+  .cv-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .cv-tabs .tab {
+    display: inline-block;
+    margin: 0.4rem 0.3rem;
+    scroll-snap-align: start;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* 2. Adjust header and text sizes */
+  .cv-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .cv-header p {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  /* 3. Cards: reduce padding, balance layout */
+  .education-item {
+    padding: 1.2rem 1rem;
+    border-radius: 8px;
+  }
+
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-header img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 0.75rem;
+  }
+
+  .education-header h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .education-item p {
+    font-size: 0.9rem;
+  }
+}
