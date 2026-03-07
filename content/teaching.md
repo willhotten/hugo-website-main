@@ -2,6 +2,8 @@
 title = "Teaching"
 layout = "single"
 url = "/teaching/"
+description = "Teaching materials and topics from Will Hotten's macroeconomics teaching and TA work."
+images = ["/img/placeholder.png"]
 +++
 
 <div class="research-header">

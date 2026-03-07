@@ -15,6 +15,7 @@ hasCJKLanguage = false
 
 # default amount of posts in each pages
 paginate = 14
+summaryLength = 0
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
@@ -35,6 +36,51 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   name = "Will Hotten"
   email = "whotten@london.edu"
   link = ""
+
+[pagination]
+  pagerSize = 100
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "series"
+    weight = 50
+
+  [[related.indices]]
+    name = "authors"
+    weight = 20
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+  [[related.indices]]
+    applyFilter = false
+    name = "fragmentrefs"
+    type = "fragments"
+    weight = 10
 
 # Menu config
 [menu]
@@ -70,11 +116,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   #  date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "Will Hotten's website"
+  title = "Will Hotten"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Will Hotten's website"
+  description = "Will Hotten is a PhD student in Economics at London Business School. His research focuses on applied macroeconomics, innovation, the climate transition, and firm-level responses to policy."
   # website images for Open Graph and Twitter Cards
-  images = ["/android-chrome-512x512.png"]
+  images = ["/img/favicon_old/headshot-cropped.png"]
   # load custom head
   customHead = ["head/custom.html"]
 
@@ -603,12 +649,3 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
-
-# Options to make hugo output files
-[outputs]
-  # 
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-

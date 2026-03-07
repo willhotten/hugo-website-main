@@ -1,0 +1,120 @@
+{{ $hero := .Params.hero }}
+<section class="home-landing">
+  <div class="home-landing__hero">
+    <div class="home-landing__atmosphere" aria-hidden="true">
+      <span class="home-landing__mesh"></span>
+      <span class="home-landing__orb home-landing__orb--one"></span>
+      <span class="home-landing__orb home-landing__orb--two"></span>
+      <span class="home-landing__beam"></span>
+      <span class="home-landing__gridline"></span>
+    </div>
+    <div class="home-landing__copy">
+      {{ with $hero.title }}
+        <h1 class="home-landing__title">{{ . }}</h1>
+      {{ end }}
+      {{ with $hero.subtitle }}
+        <p class="home-landing__subtitle">{{ . }}</p>
+      {{ end }}
+      {{ with $hero.intro }}
+        <p class="home-landing__intro">{{ . }}</p>
+      {{ end }}
+      <div class="home-landing__actions">
+        {{ with $hero.primaryCtaHref }}
+          <a class="home-landing__button home-landing__button--primary" href="{{ . }}">
+            {{ $hero.primaryCtaLabel | default "Explore" }}
+          </a>
+        {{ end }}
+        {{ with $hero.secondaryCtaHref }}
+          <a class="home-landing__button home-landing__button--secondary" href="{{ . }}">
+            {{ $hero.secondaryCtaLabel | default "Learn more" }}
+          </a>
+        {{ end }}
+        {{ with $hero.tertiaryCtaHref }}
+          <a class="home-landing__textlink" href="{{ . }}">
+            {{ $hero.tertiaryCtaLabel | default "Contact" }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ with $hero.image }}
+      <div class="home-landing__visual home-landing__visual--portrait">
+        <div class="home-landing__portrait-frame">
+          <img src="{{ . }}" alt="{{ $hero.imageAlt | default `Homepage image` }}">
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+  {{ with .Params.agenda }}
+    <section class="home-agenda-section">
+      <div class="home-agenda-section__header">
+        <p class="home-section-label">Research Agenda</p>
+        <h2>Programme</h2>
+      </div>
+      <div class="home-agenda-grid">
+        {{ range . }}
+          <article class="home-agenda-card">
+            <h3>{{ .title }}</h3>
+            <p>{{ .text }}</p>
+          </article>
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Params.featuredResearch }}
+    <section class="home-jmp">
+      <div class="home-jmp__intro">
+        <p class="home-section-label">{{ .label }}</p>
+        <div class="home-jmp__meta">
+          <span class="research-pill">{{ .label }}</span>
+          {{ with .status }}
+            <span class="research-status">{{ . }}</span>
+          {{ end }}
+        </div>
+        <h2>{{ .title }}</h2>
+        <p>{{ .summary }}</p>
+        <div class="home-jmp__actions">
+          <a class="home-landing__button home-landing__button--primary" href="{{ .primaryCtaHref }}">
+            {{ .primaryCtaLabel }}
+          </a>
+          <a class="home-landing__button home-landing__button--secondary" href="{{ .secondaryCtaHref }}">
+            {{ .secondaryCtaLabel }}
+          </a>
+          <span class="home-jmp__meta-link">Code on request</span>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+
+  {{ with .Params.cards }}
+    <section class="home-landing__secondary" aria-label="Site sections">
+      <div class="home-landing__secondary-header">
+        <p class="home-section-label">Selected Projects</p>
+        <h2>Additional work</h2>
+      </div>
+      <div class="home-landing__grid">
+      {{ range . }}
+        {{ $card := . }}
+        <a class="home-card" href="{{ .href }}">
+          {{ with .image }}
+            <div class="home-card__media{{ with $card.imageStyle }} home-card__media--{{ . }}{{ end }}">
+              <img src="{{ . }}" alt="{{ $card.imageAlt | default `Section image` }}">
+            </div>
+          {{ end }}
+          <div class="home-card__body">
+            {{ with .meta }}
+              <p class="home-card__meta">{{ . }}</p>
+            {{ end }}
+            <h3>{{ .title }}</h3>
+            {{ with .summary }}
+              <p>{{ . }}</p>
+            {{ end }}
+            <span class="home-card__cta">Open research</span>
+          </div>
+        </a>
+      {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</section>
