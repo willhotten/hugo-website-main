@@ -1,5 +1,10 @@
 # Hugo website (Blowfish migration)
 
+## Read First
+- Read `DESIGN_BRIEF.md` before making design decisions.
+- Read `MIGRATION_LOG.md` before touching config, layouts, or theme integration.
+- Read the relevant file in `tickets/` before implementing the next step.
+
 ## Objective
 Migrate this site to the Blowfish Hugo theme and improve design while keeping content accurate and changes reviewable.
 
