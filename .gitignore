@@ -1,1 +1,23 @@
+# --- macOS ---
+.DS_Store
 
+# --- Hugo generated output ---
+public/
+resources/_gen/
+.hugo_build.lock
+
+# --- Hugo cache (optional but recommended) ---
+.cache/
+hugo_stats.json
+
+# --- Node (only if ever used by theme) ---
+node_modules/
+npm-debug.log*
+
+# --- VS Code ---
+.vscode/
+
+# --- Temporary backups ---
+*.bak
+*.backup
+*.orig
