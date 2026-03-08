@@ -25,7 +25,7 @@
 - `Featured Research` is the neutral module name that can later become `Job Market Paper`.
 - Type direction is:
   - `Fraunces` for headings
-  - `Source Serif 4` for body
+  - `Inter` for body
   - `IBM Plex Mono` for meta/UI accents
 - Accent colour should remain restrained acid green.
 - Portrait treatment should remain black and white and rectangular.

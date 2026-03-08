@@ -71,7 +71,7 @@ Each card should support:
 
 ## Typography
 - Headings: `Fraunces`
-- Body: `Source Serif 4`
+- Body: `Inter`
 - Meta and UI accents: `IBM Plex Mono`
 
 Rules:
