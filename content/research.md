@@ -4,57 +4,86 @@ url: "/research/"
 draft: false
 description: "Research projects by Will Hotten on applied macroeconomics, innovation, finance, and the climate transition."
 images:
-  - "/img/placeholder.png"
+  - "/img/og/research.svg"
 ---
 
 <div class="research-header">
-  <p class="research-kicker">Research</p>
-  <h1>Job market paper and current projects</h1>
-  <p>I work on applied macroeconomics, with a focus on innovation, finance, and the climate transition. The emphasis is on firm heterogeneity, financing conditions, and how policy shapes investment and long-run outcomes.</p>
+  <h1>Research</h1>
+  <p>My research sits at the intersection of macroeconomics, finance, innovation, and the climate transition. Current projects study how financing conditions and macro policy shape firm investment and innovation across heterogeneous firms.</p>
 </div>
 
 <div class="research-grid">
   <article class="research-card research-card--feature">
     <div class="research-card__media research-card__media--placeholder">
-      <img src="/img/placeholder.png" alt="Placeholder image for Green Innovators project" class="research-image" />
+      <img src="/img/thumbs/timeseries-wave.svg" alt="Abstract thumbnail for Financial conditions and green R&amp;D" class="research-image" />
     </div>
     <div class="research-card__body">
       <div class="research-card__meta">
         <span class="research-pill">Featured research</span>
-        <span class="research-status">Current project</span>
+        <span class="research-status">Working paper</span>
       </div>
-      <h3>Green Innovators</h3>
-      <p>New evidence on specialist green innovators and their response to tightening financial conditions. The project studies how firm heterogeneity matters for climate-relevant investment when macro-financial conditions deteriorate.</p>
+      <div class="research-card__tags">
+        <span class="research-tag">Innovation</span>
+        <span class="research-tag">Finance</span>
+        <span class="research-tag">Climate transition</span>
+      </div>
+      <h3>Financial conditions and green R&amp;D</h3>
+      <p>New evidence on specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms.</p>
       <div class="research-card__links">
-        <span class="research-link research-link--muted">PDF soon</span>
-        <span class="research-link research-link--muted">Slides on request</span>
+        <span class="research-link research-link--muted">Paper in preparation</span>
+        <span class="research-link research-link--muted">Slides forthcoming</span>
       </div>
     </div>
   </article>
 
   <article class="research-card">
     <div class="research-card__media research-card__media--placeholder">
-      <img src="/img/placeholder.png" alt="Placeholder image for future research project" class="research-image" />
+      <img src="/img/thumbs/branching-investment.svg" alt="Abstract thumbnail for follow-up project on green innovation" class="research-image" />
     </div>
     <div class="research-card__body">
       <div class="research-card__meta">
-        <span class="research-pill research-pill--muted">Working project</span>
+        <span class="research-pill research-pill--muted">Early-stage project</span>
       </div>
-      <h3>Monetary Policy and Firm Heterogeneity</h3>
-      <p>Project slot for work on the heterogeneous transmission of monetary policy across firms, balance sheets, and investment responses.</p>
+      <div class="research-card__tags">
+        <span class="research-tag">Innovation</span>
+        <span class="research-tag">Climate transition</span>
+      </div>
+      <h3>Follow-up project on green innovation</h3>
+      <p>Early-stage work extending the green innovation agenda, with scope to study related firm responses beyond the current project.</p>
     </div>
   </article>
 
   <article class="research-card">
     <div class="research-card__media research-card__media--placeholder">
-      <img src="/img/placeholder.png" alt="Placeholder image for future research project" class="research-image" />
+      <img src="/img/thumbs/network-grid.svg" alt="Abstract thumbnail for project on defence spending in the United Kingdom" class="research-image" />
     </div>
     <div class="research-card__body">
       <div class="research-card__meta">
-        <span class="research-pill research-pill--muted">Pipeline</span>
+        <span class="research-pill research-pill--muted">Early-stage project</span>
       </div>
-      <h3>Climate Transition and Long-Run Outcomes</h3>
-      <p>Pipeline slot for adjacent work on transition dynamics, investment, and longer-run firm outcomes.</p>
+      <div class="research-card__tags">
+        <span class="research-tag">Public spending</span>
+        <span class="research-tag">Macro adjustment</span>
+      </div>
+      <h3>Defence spending in the United Kingdom</h3>
+      <p>Exploratory work on the economic effects of defence spending in the UK, including how expenditure shocks transmit through investment and activity.</p>
+    </div>
+  </article>
+
+  <article class="research-card">
+    <div class="research-card__media research-card__media--placeholder">
+      <img src="/img/thumbs/capital-flows.svg" alt="Abstract thumbnail for project on the macroeconomic impact of venture capital" class="research-image" />
+    </div>
+    <div class="research-card__body">
+      <div class="research-card__meta">
+        <span class="research-pill research-pill--muted">Early-stage project</span>
+      </div>
+      <div class="research-card__tags">
+        <span class="research-tag">Finance</span>
+        <span class="research-tag">Macroeconomics</span>
+      </div>
+      <h3>The macroeconomic impact of venture capital</h3>
+      <p>Early-stage work on how venture capital shapes innovation, investment, and aggregate outcomes, with particular attention to transmission across firms.</p>
     </div>
   </article>
 </div>

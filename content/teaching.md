@@ -3,42 +3,48 @@ title = "Teaching"
 layout = "single"
 url = "/teaching/"
 description = "Teaching materials and topics from Will Hotten's macroeconomics teaching and TA work."
-images = ["/img/placeholder.png"]
+images = ["/img/og/teaching.svg"]
 +++
 
-<div class="research-header">
-  <h1>Teaching Materials</h1>
-  <p>Slides and lecture content from TA sessions. More to come soon.</p>
+<div class="teaching-header">
+  <h1>Teaching</h1>
+  <p>Teaching materials from macroeconomics TA sessions at London Business School. Slide decks will be uploaded here as they are finalised.</p>
 </div>
 
-<div class="research-grid">
+<div class="teaching-grid">
+  <article class="teaching-card teaching-card--pending">
+    <div class="teaching-card__meta">
+      <span class="teaching-pill">Teaching note</span>
+      <span class="teaching-status">Slides forthcoming</span>
+    </div>
+    <h2>Local Projections</h2>
+    <p>Slides and notes on local projections and empirical applications will be uploaded here.</p>
+  </article>
 
-  <!--
-  <div class="research-card">
-    <h3>Topic 1 – Local Projections</h3>
-    <p>Notes on local projections, applications and extensions.</p>
-    <a href="/teaching/lecture1.pdf">📄 Download slides</a>
-  </div>
-  -->
+  <article class="teaching-card teaching-card--pending">
+    <div class="teaching-card__meta">
+      <span class="teaching-pill">Teaching note</span>
+      <span class="teaching-status">Slides forthcoming</span>
+    </div>
+    <h2>High-Frequency Identification</h2>
+    <p>Teaching material on identification with high-frequency surprises will be added soon.</p>
+  </article>
 
-  <div class="research-card disabled">
-    <h3>Topic 1 – Local Projections</h3>
-    <p>Slides and notes will be available soon.</p>
-  </div>
+  <article class="teaching-card teaching-card--pending">
+    <div class="teaching-card__meta">
+      <span class="teaching-pill">Teaching note</span>
+      <span class="teaching-status">Slides forthcoming</span>
+    </div>
+    <h2>Shift-Share IV</h2>
+    <p>Slides covering shift-share instruments, use cases, and implementation details will be uploaded here.</p>
+  </article>
 
-  <div class="research-card disabled">
-    <h3>Topic 2 – High-Frequency Identification</h3>
-    <p>Slides and notes will be available soon.</p>
-  </div>
-
-  <div class="research-card disabled">
-    <h3>Topic 3 – Shift-Share IV</h3>
-    <p>Slides and notes will be available soon.</p>
-  </div>
-
-  <div class="research-card disabled">
-    <h3>Topic 4 – Granular IV</h3>
-    <p>Slides and notes will be available soon.</p>
-  </div>
-
+  <article class="teaching-card teaching-card--pending">
+    <div class="teaching-card__meta">
+      <span class="teaching-pill">Teaching note</span>
+      <span class="teaching-status">Slides forthcoming</span>
+    </div>
+    <h2>Granular IV</h2>
+    <p>Slides and supporting notes on granular instruments will be posted once finalised.</p>
+  </article>
 </div>

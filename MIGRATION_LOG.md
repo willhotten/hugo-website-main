@@ -14,6 +14,7 @@
 - Generic SEO descriptions were replaced with page-specific descriptions.
 - Author metadata now resolves to `Will Hotten`.
 - Footer theme credit can be disabled through current params.
+- Homepage, Research, CV, and Teaching now point to explicit branded OG image assets.
 
 ## Current Warnings
 - Hugo emits a version-compatibility warning for Blowfish:
@@ -33,9 +34,12 @@
 
 ## Remaining Open Decisions
 - Final portrait crop and treatment.
-- Final visual system for research thumbnails and OG images.
+- Final visual system for research thumbnails.
 - Whether the featured research module should eventually expose PDF, slides, and code as real links or placeholder states.
 - Whether the footer should expose direct social/contact links inline or via icons only.
+- Research page content will likely need a later content pass once paper titles, abstracts, coauthors, and output links are final.
+- Research cards should add coauthor lines only when confirmed, rather than carrying placeholders.
+- Featured research links should be upgraded from placeholder states to real paper/slides links once those outputs exist.
 
 ## Build Command
 - `hugo --gc --minify --cacheDir /tmp/hugo_cache`
