@@ -58,7 +58,7 @@ images:
 
   <article class="research-card">
     <div class="research-card__media research-card__media--placeholder">
-      <img src="/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg" alt="Historical image associated with defence production" class="research-image" />
+      <img src="/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg" alt="Historical image associated with defence production" class="research-image research-image--defence" />
     </div>
     <div class="research-card__body">
       <div class="research-card__meta">

@@ -30,8 +30,7 @@ Status convention:
 - `02 Featured Research Module` is structurally in place; remaining work is limited to future decisions on whether real PDF, slides, and code links should be exposed once they exist.
 - `03 Research Grid` is visually established, but research metadata can still be strengthened once coauthors, dates, and real outputs are confirmed.
 - `04 CV Page` is substantially improved, but the page no longer exposes direct contact details and may need one final polish pass.
-- `07 Research Credibility Pass` removed dead research actions and improved academic phrasing, but final metadata depends on confirmed coauthors, dates, and outputs.
-- `07 Research Credibility Pass` now also includes real imagery for the featured project and selected early-stage projects, but final metadata still depends on confirmed coauthors, dates, and outputs.
+- `07 Research Credibility Pass` removed dead research actions, improved academic phrasing, added confirmed coauthors and year for the featured paper, and now uses real imagery for the featured project and selected early-stage projects. It remains partial because final metadata and output links still depend on confirmed titles, coauthors, dates, and materials for the non-featured projects.
 - `08 Teaching Simplification Pass` is complete; future work is limited to swapping placeholder states for real slide links as materials are uploaded.
 - `09 Cross-Page Consistency Pass` is complete; remaining site work is primarily future content and materials rather than shared UI inconsistency.
 
@@ -61,10 +60,10 @@ Status convention:
 - Accent colour should remain restrained acid green.
 - Portrait treatment should remain black and white and rectangular.
 - Motion should stay minimal and CSS-led.
+- Research/project thumbnails should use a shared wide crop and restrained greyscale treatment, with real photography used where available and abstract placeholders retained for genuinely early-stage work.
 
 ## Remaining Open Decisions
 - Final portrait crop and treatment.
-- Final visual system for research thumbnails.
 - Whether the featured research module should eventually expose PDF, slides, and code as real links or placeholder states.
 - Whether the footer should expose direct social/contact links inline or via icons only.
 - Research page content will likely need a later content pass once paper titles, abstracts, coauthors, and output links are final.

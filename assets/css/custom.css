@@ -638,6 +638,10 @@ a[title="Will Hotten"] {
   filter: grayscale(1) contrast(1.02);
 }
 
+.research-image--defence {
+  object-position: center 36%;
+}
+
 .home-card__body {
   display: grid;
   gap: 0.65rem;

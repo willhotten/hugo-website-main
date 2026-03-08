@@ -63,6 +63,7 @@ images = ["/img/og/home.svg"]
   image = "/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg"
   imageAlt = "Historical image associated with defence production"
   imageStyle = "cover"
+  imagePosition = "center 36%"
   meta = "Early-stage project"
   submeta = "Public spending / macro adjustment"
 

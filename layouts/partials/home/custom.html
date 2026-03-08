@@ -120,7 +120,10 @@
         <a class="home-card" href="{{ .href }}">
           {{ with .image }}
             <div class="home-card__media{{ with $card.imageStyle }} home-card__media--{{ . }}{{ end }}">
-              <img src="{{ . }}" alt="{{ $card.imageAlt | default `Section image` }}">
+              <img
+                src="{{ . }}"
+                alt="{{ $card.imageAlt | default `Section image` }}"
+                {{ with $card.imagePosition }}style="object-position: {{ . }};"{{ end }}>
             </div>
           {{ end }}
           <div class="home-card__body">

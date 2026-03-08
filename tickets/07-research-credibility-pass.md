@@ -25,3 +25,10 @@ Make the homepage featured research and the research page read like credible aca
 - Keep the designed-card direction unless it clearly harms skim-readability.
 - Do not add fake coauthors, dates, or outputs.
 - Prefer `Draft available on request` or similar academic language over `coming soon`.
+
+## Progress Notes
+- Dead placeholder research buttons were removed from homepage featured research and the research page.
+- Featured research now carries confirmed academic metadata: `Working paper`, `2026`, and confirmed coauthors.
+- Selected early-stage projects now better reflect the actual pipeline and can carry related public outputs where appropriate.
+- The research thumbnail system now uses a consistent wide greyscale treatment, with real photography used where suitable.
+- The ticket remains partial because non-featured project titles, coauthors, dates, and output links are still evolving.
