@@ -28,9 +28,9 @@ images:
         <span class="research-tag">Climate transition</span>
       </div>
       <h3>Financial conditions and green R&amp;D</h3>
-      <p>New evidence on specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms.</p>
+      <p>This project studies specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms.</p>
       <div class="research-card__links">
-        <span class="research-link research-link--muted">Paper in preparation</span>
+        <a class="research-link" href="mailto:whotten@london.edu?subject=Financial%20conditions%20and%20green%20R%26D">Draft available on request</a>
         <span class="research-link research-link--muted">Slides forthcoming</span>
       </div>
     </div>
@@ -49,7 +49,7 @@ images:
         <span class="research-tag">Climate transition</span>
       </div>
       <h3>Follow-up project on green innovation</h3>
-      <p>Early-stage work extending the green innovation agenda, with scope to study related firm responses beyond the current project.</p>
+      <p>This project extends the green innovation agenda, with scope to study related firm responses beyond the current featured paper.</p>
     </div>
   </article>
 
@@ -66,7 +66,7 @@ images:
         <span class="research-tag">Macro adjustment</span>
       </div>
       <h3>Defence spending in the United Kingdom</h3>
-      <p>Exploratory work on the economic effects of defence spending in the UK, including how expenditure shocks transmit through investment and activity.</p>
+      <p>This project examines how defence spending in the UK transmits through investment, production, and broader macroeconomic activity.</p>
     </div>
   </article>
 
@@ -83,7 +83,7 @@ images:
         <span class="research-tag">Macroeconomics</span>
       </div>
       <h3>The macroeconomic impact of venture capital</h3>
-      <p>Early-stage work on how venture capital shapes innovation, investment, and aggregate outcomes, with particular attention to transmission across firms.</p>
+      <p>This project studies how venture capital shapes innovation, investment, and aggregate outcomes, with particular attention to transmission across firms.</p>
     </div>
   </article>
 </div>

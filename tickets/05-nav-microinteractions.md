@@ -1,5 +1,8 @@
 # Ticket 05: Nav Microinteractions
 
+## Status
+Completed
+
 ## Goal
 Polish the shared header and navigation so the chrome feels precise, quiet, and consistent with the site’s editorial/research-lab tone.
 

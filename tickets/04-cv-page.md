@@ -1,5 +1,8 @@
 # Ticket 04: CV Page
 
+## Status
+Partial
+
 ## Goal
 Refine the CV page into a skim-first academic profile page with the PDF as the dominant action.
 

@@ -8,43 +8,44 @@ images = ["/img/og/teaching.svg"]
 
 <div class="teaching-header">
   <h1>Teaching</h1>
-  <p>Teaching materials from macroeconomics TA sessions at London Business School. Slide decks will be uploaded here as they are finalised.</p>
+  <p>Selected teaching topics from macroeconomics TA sessions at London Business School. Slide decks will be uploaded here as they are finalised.</p>
+  <p class="teaching-header__note">Selected slides will be posted here as materials are finalised.</p>
 </div>
 
 <div class="teaching-grid">
-  <article class="teaching-card teaching-card--pending">
+  <article class="teaching-card">
     <div class="teaching-card__meta">
-      <span class="teaching-pill">Teaching note</span>
-      <span class="teaching-status">Slides forthcoming</span>
+      <span class="teaching-pill">Teaching topic</span>
+      <span class="teaching-status">Macroeconomics II</span>
     </div>
     <h2>Local Projections</h2>
-    <p>Slides and notes on local projections and empirical applications will be uploaded here.</p>
+    <p>Teaching note on local projections, empirical applications, and practical interpretation.</p>
   </article>
 
-  <article class="teaching-card teaching-card--pending">
+  <article class="teaching-card">
     <div class="teaching-card__meta">
-      <span class="teaching-pill">Teaching note</span>
-      <span class="teaching-status">Slides forthcoming</span>
+      <span class="teaching-pill">Teaching topic</span>
+      <span class="teaching-status">Macroeconomics II</span>
     </div>
     <h2>High-Frequency Identification</h2>
-    <p>Teaching material on identification with high-frequency surprises will be added soon.</p>
+    <p>Teaching note on identification with high-frequency surprises and related empirical design choices.</p>
   </article>
 
-  <article class="teaching-card teaching-card--pending">
+  <article class="teaching-card">
     <div class="teaching-card__meta">
-      <span class="teaching-pill">Teaching note</span>
-      <span class="teaching-status">Slides forthcoming</span>
+      <span class="teaching-pill">Teaching topic</span>
+      <span class="teaching-status">Macroeconomics II</span>
     </div>
     <h2>Shift-Share IV</h2>
-    <p>Slides covering shift-share instruments, use cases, and implementation details will be uploaded here.</p>
+    <p>Teaching note on shift-share instruments, use cases, and implementation considerations.</p>
   </article>
 
-  <article class="teaching-card teaching-card--pending">
+  <article class="teaching-card">
     <div class="teaching-card__meta">
-      <span class="teaching-pill">Teaching note</span>
-      <span class="teaching-status">Slides forthcoming</span>
+      <span class="teaching-pill">Teaching topic</span>
+      <span class="teaching-status">Macroeconomics II</span>
     </div>
     <h2>Granular IV</h2>
-    <p>Slides and supporting notes on granular instruments will be posted once finalised.</p>
+    <p>Teaching note on granular instruments and their role in applied macroeconomics.</p>
   </article>
 </div>

@@ -1,5 +1,8 @@
 # Ticket 01: Homepage Hero
 
+## Status
+Completed
+
 ## Goal
 Refine the homepage hero so it communicates identity, affiliation, and research direction with a calm editorial tone.
 

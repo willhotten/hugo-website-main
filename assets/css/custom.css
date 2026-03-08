@@ -153,7 +153,7 @@ a[title="Will Hotten"] {
 .home-landing {
   display: grid;
   gap: 2.15rem;
-  padding: 2.2rem 0 4.8rem;
+  padding: 2.2rem 0 4.1rem;
 }
 
 .home-landing__hero {
@@ -519,6 +519,15 @@ a[title="Will Hotten"] {
   color: var(--site-ink-soft);
 }
 
+.home-jmp__note {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
 .home-jmp__actions {
   margin-top: 0.85rem;
   gap: 0.65rem;
@@ -532,14 +541,6 @@ a[title="Will Hotten"] {
   padding-inline: 0.95rem;
   font-size: 0.85rem;
   justify-content: center;
-}
-
-.home-jmp__placeholder {
-  background: rgba(255, 255, 255, 0.62);
-  border-color: rgba(17, 17, 17, 0.09);
-  color: #6a6a6a;
-  cursor: default;
-  pointer-events: none;
 }
 
 .home-landing__secondary {
@@ -693,7 +694,7 @@ a[title="Will Hotten"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.25rem;
 }
 
 .research-card {
@@ -707,8 +708,12 @@ a[title="Will Hotten"] {
   grid-column: span 2;
 }
 
+.research-card__media {
+  aspect-ratio: 16 / 8;
+}
+
 .research-card__media--placeholder {
-  padding: 0.95rem;
+  padding: 0.7rem;
 }
 
 .research-card__body {
@@ -786,6 +791,16 @@ a[title="Will Hotten"] {
   color: #6b7280;
 }
 
+.research-link {
+  color: var(--site-accent-strong);
+  text-decoration: none;
+}
+
+.research-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
 .teaching-header {
   max-width: 44rem;
   margin: 1.5rem auto 2.1rem;
@@ -808,16 +823,25 @@ a[title="Will Hotten"] {
   color: var(--site-ink-soft);
 }
 
+.teaching-header__note {
+  margin-top: 0.7rem !important;
+  font-family: var(--font-mono);
+  font-size: 0.74rem !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6b7280 !important;
+}
+
 .teaching-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.1rem;
 }
 
 .teaching-card {
   display: grid;
-  gap: 0.75rem;
+  gap: 0.68rem;
   padding: 1.15rem 1.2rem 1.2rem;
   border: 1px solid var(--site-border);
   border-radius: 18px;
@@ -864,8 +888,8 @@ a[title="Will Hotten"] {
 
 .teaching-card p {
   margin: 0;
-  font-size: 0.96rem;
-  line-height: 1.6;
+  font-size: 0.94rem;
+  line-height: 1.58;
   color: var(--site-ink-soft);
 }
 
@@ -945,7 +969,7 @@ a[title="Will Hotten"] {
 .cv-section {
   display: grid;
   gap: 0.55rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.25rem;
 }
 
 .cv-section__header {

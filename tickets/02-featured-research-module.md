@@ -1,5 +1,8 @@
 # Ticket 02: Featured Research Module
 
+## Status
+Partial
+
 ## Goal
 Refine the `Featured Research` section into a stable, reusable module that can later be renamed to `Job Market Paper` without structural change.
 

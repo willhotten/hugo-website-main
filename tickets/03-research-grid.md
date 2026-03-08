@@ -1,5 +1,8 @@
 # Ticket 03: Research Grid
 
+## Status
+Partial
+
 ## Goal
 Turn the research page into a clean, modular papers/projects page with clear hierarchy between featured work, active work, and pipeline.
 

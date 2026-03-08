@@ -1,5 +1,8 @@
 # Ticket 06: SEO and OG Images
 
+## Status
+Completed
+
 ## Goal
 Complete the metadata system with coherent branded social previews and stable SEO defaults.
 

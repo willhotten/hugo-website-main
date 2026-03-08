@@ -7,6 +7,33 @@
 - Single-page rendering was fixed by aligning the local `layouts/_default/single.html` override with Blowfish's expected block structure.
 - Page-level metadata has been added for homepage, research, CV, and teaching.
 
+## Ticket Status
+- `01 Homepage Hero` — Completed
+- `02 Featured Research Module` — Partial
+- `03 Research Grid` — Partial
+- `04 CV Page` — Partial
+- `05 Nav Microinteractions` — Completed
+- `06 SEO and OG Images` — Completed
+- `07 Research Credibility Pass` — Partial
+- `08 Teaching Simplification Pass` — Completed
+- `09 Cross-Page Consistency Pass` — Completed
+
+Status convention:
+- `Not Started` = no meaningful implementation yet
+- `In Progress` = actively being worked on
+- `Partial` = some acceptance criteria satisfied, but not all
+- `Completed` = acceptance criteria satisfied
+- `Deferred` = intentionally postponed
+- `Dropped` = intentionally not being taken forward in current form
+
+## Status Notes
+- `02 Featured Research Module` is structurally in place; remaining work is limited to future decisions on whether real PDF, slides, and code links should be exposed once they exist.
+- `03 Research Grid` is visually established, but research metadata can still be strengthened once coauthors, dates, and real outputs are confirmed.
+- `04 CV Page` is substantially improved, but the page no longer exposes direct contact details and may need one final polish pass.
+- `07 Research Credibility Pass` removed dead research actions and improved academic phrasing, but final metadata depends on confirmed coauthors, dates, and outputs.
+- `08 Teaching Simplification Pass` is complete; future work is limited to swapping placeholder states for real slide links as materials are uploaded.
+- `09 Cross-Page Consistency Pass` is complete; remaining site work is primarily future content and materials rather than shared UI inconsistency.
+
 ## Confirmed Fixes
 - Theme is set to `blowfish`.
 - The extra `BLOWFISH` output site was removed; build output is now a single `EN` site.
