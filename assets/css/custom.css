@@ -145,7 +145,7 @@ a[title="Will Hotten"] {
 
 .home-landing {
   display: grid;
-  gap: 2.1rem;
+  gap: 2.15rem;
   padding: 2.2rem 0 4.8rem;
 }
 
@@ -154,16 +154,18 @@ a[title="Will Hotten"] {
   display: block;
 }
 
-.home-landing__hero-frame {
+.home-landing__hero-shell {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(220px, 0.7fr);
-  gap: 1.6rem;
+  grid-template-columns: minmax(0, 1.45fr) minmax(250px, 0.78fr);
+  gap: 1.4rem;
   align-items: center;
-  padding: 2.15rem 0 2.1rem;
-  border-top: 1px solid var(--site-border-strong);
-  border-bottom: 1px solid var(--site-border);
+  padding: 2.2rem 2rem;
+  border: 1px solid var(--site-border);
+  border-radius: 1.2rem;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
 }
 
 .home-landing__atmosphere {
@@ -223,8 +225,7 @@ a[title="Will Hotten"] {
 }
 
 .home-landing__gridline {
-  inset: 8% 3% 10% 54%;
-  border-left: 1px solid rgba(17, 17, 17, 0.08);
+  display: none;
 }
 
 .home-landing__copy {
@@ -234,7 +235,7 @@ a[title="Will Hotten"] {
   flex-direction: column;
   justify-content: center;
   min-height: 22rem;
-  padding: 0 3.5rem 0 0;
+  padding: 0 2.2rem 0 0;
 }
 
 .home-landing__title {
@@ -247,17 +248,18 @@ a[title="Will Hotten"] {
 }
 
 .home-landing__subtitle {
-  margin: 0 0 0.9rem;
+  margin: 0.55rem 0 0;
   font-family: var(--font-ui);
   font-size: 0.94rem;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #4a4a4a;
+  text-transform: none;
 }
 
 .home-landing__intro {
   max-width: 34rem;
-  margin: 1.25rem 0 0;
+  margin: 1rem 0 0;
   font-family: var(--font-body);
   font-size: 1.04rem;
   line-height: 1.66;
@@ -268,8 +270,8 @@ a[title="Will Hotten"] {
 .home-jmp__actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
-  margin-top: 1.75rem;
+  gap: 0.65rem;
+  margin-top: 1.45rem;
 }
 
 .home-landing__button,
@@ -277,8 +279,8 @@ a[title="Will Hotten"] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 9.25rem;
-  padding: 0.72rem 1.05rem;
+  min-width: 8.8rem;
+  padding: 0.7rem 1rem;
   border: 1px solid var(--site-border);
   border-radius: 999px;
   font-family: var(--font-ui);
@@ -309,9 +311,9 @@ a[title="Will Hotten"] {
 }
 
 .home-landing__button--tertiary {
-  background: rgba(255, 255, 255, 0.55);
-  border-color: rgba(163, 230, 53, 0.35);
-  color: var(--site-accent-strong);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: var(--site-border);
+  color: var(--site-ink);
 }
 
 .home-landing__button--primary:hover,
@@ -325,6 +327,7 @@ a[title="Will Hotten"] {
 .download-button:hover {
   border-color: rgba(163, 230, 53, 0.45);
   background: var(--site-accent-soft);
+  color: var(--site-ink);
 }
 
 .home-landing__visual--portrait {
@@ -332,16 +335,16 @@ a[title="Will Hotten"] {
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   min-height: 22rem;
   padding: 0;
 }
 
 .home-landing__portrait-frame {
-  width: min(100%, 15rem);
+  width: min(100%, 16rem);
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  border-radius: 0.8rem;
+  border-radius: 1rem;
   border: 1px solid rgba(17, 17, 17, 0.08);
   background: #ecebe5;
 }
@@ -356,54 +359,58 @@ a[title="Will Hotten"] {
 
 .home-agenda-section {
   display: grid;
-  gap: 1.1rem;
-  padding-top: 0.25rem;
+  gap: 1rem;
+  padding-top: 0.05rem;
 }
 
 .home-agenda-section__header {
   display: grid;
-  gap: 0.25rem;
+  gap: 0.35rem;
 }
 
-.home-agenda-section__header .home-section-label {
-  color: #3f4b31;
+.home-agenda-section__header .home-section-label,
+.home-landing__secondary-header .home-section-label {
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  color: #4a5440;
+}
+
+.home-agenda-section__header .home-section-label::after,
+.home-landing__secondary-header .home-section-label::after {
+  content: "";
+  display: block;
+  width: 3.4rem;
+  height: 1px;
+  margin-top: 0.55rem;
+  background: rgba(17, 17, 17, 0.14);
 }
 
 .home-agenda-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.35rem;
+  gap: 1rem;
 }
 
 .home-agenda-card {
-  border-top: 1px solid rgba(17, 17, 17, 0.14);
-  border-radius: 0;
-  background: transparent;
-  padding: 1rem 0 0;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.58);
+  padding: 1rem 1.05rem 1.1rem;
 }
 
 .home-agenda-card h3 {
   margin: 0;
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.28;
-}
-
-.home-agenda-card h3::after {
-  content: "";
-  display: block;
-  width: 2.4rem;
-  height: 2px;
-  margin-top: 0.8rem;
-  background: rgba(163, 230, 53, 0.7);
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
 }
 
 .home-agenda-card p {
-  margin: 0.85rem 0 0;
+  margin: 0.55rem 0 0;
   font-family: var(--font-body);
-  font-size: 0.95rem;
-  line-height: 1.62;
+  font-size: 0.96rem;
+  line-height: 1.58;
   color: var(--site-ink-soft);
 }
 
@@ -423,20 +430,21 @@ a[title="Will Hotten"] {
 .home-jmp {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  border-radius: 1rem;
-  padding: 1.4rem 1.5rem 1.45rem;
+  gap: 0.8rem;
+  border-radius: 0.9rem;
+  padding: 1.2rem 1.3rem 1.25rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(250, 250, 247, 0.92) 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(250, 250, 247, 0.9) 100%);
 }
 
 .home-jmp::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 0;
-  width: 3px;
-  border-radius: 1rem 0 0 1rem;
-  background: linear-gradient(180deg, rgba(163, 230, 53, 0.9) 0%, rgba(163, 230, 53, 0.15) 100%);
+  inset: auto 1.3rem 100% auto;
+  width: 4rem;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(163, 230, 53, 0.7);
 }
 
 .home-jmp__meta,
@@ -446,6 +454,36 @@ a[title="Will Hotten"] {
   gap: 0.55rem;
   align-items: center;
   margin-top: 0;
+}
+
+.home-jmp__body {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.home-jmp--editorial {
+  max-width: 48rem;
+}
+
+.home-jmp--split .home-jmp__intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(220px, 0.72fr);
+  gap: 1.15rem;
+  align-items: stretch;
+}
+
+.home-jmp__visual {
+  overflow: hidden;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 0.8rem;
+  background: linear-gradient(180deg, #f7f7f2 0%, #f2f1eb 100%);
+}
+
+.home-jmp__visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-jmp h2,
@@ -462,30 +500,57 @@ a[title="Will Hotten"] {
 }
 
 .home-jmp h2 {
-  margin-top: 0.75rem;
-  font-size: clamp(1.9rem, 3vw, 2.55rem);
-  line-height: 1.04;
+  margin-top: 0.35rem;
+  font-family: var(--font-ui);
+  font-size: clamp(1.4rem, 2vw, 1.75rem);
+  line-height: 1.16;
 }
 
-.home-jmp p {
-  margin: 0.95rem 0 0;
+.home-jmp__summary {
+  max-width: 42rem;
+  margin: 0.45rem 0 0;
   font-size: 1rem;
-  line-height: 1.72;
+  line-height: 1.66;
   color: var(--site-ink-soft);
+}
+
+.home-jmp__actions {
+  margin-top: 0.85rem;
+  gap: 0.65rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home-jmp__actions .home-landing__button {
+  min-width: 0;
+  padding-inline: 0.95rem;
+  font-size: 0.85rem;
+  justify-content: center;
+}
+
+.home-jmp__placeholder {
+  background: rgba(255, 255, 255, 0.62);
+  border-color: rgba(17, 17, 17, 0.09);
+  color: #6a6a6a;
+  cursor: default;
+  pointer-events: none;
 }
 
 .home-landing__secondary {
   display: grid;
-  gap: 1.1rem;
+  gap: 0.85rem;
 }
 
 .home-landing__secondary-header {
   display: grid;
-  gap: 0.3rem;
+  gap: 0.4rem;
 }
 
-.home-landing__secondary-header h2 {
-  font-size: 1.7rem;
+.home-landing__secondary-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.15rem;
 }
 
 .home-landing__grid {
@@ -554,8 +619,18 @@ a[title="Will Hotten"] {
   color: #666666;
 }
 
+.home-card__coauthors {
+  margin: -0.2rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.83rem;
+  line-height: 1.45;
+  color: #666666;
+}
+
 .home-card__body h3 {
+  font-family: var(--font-ui);
   font-size: 1.35rem;
+  font-weight: 600;
   line-height: 1.1;
 }
 
@@ -879,10 +954,18 @@ a[title="Will Hotten"] {
 }
 
 @media (max-width: 900px) {
-  .home-landing__hero-frame,
+  .home-landing__hero-shell,
   .home-landing__grid,
   .cv-summary-grid,
   .home-agenda-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-jmp--editorial {
+    max-width: none;
+  }
+
+  .home-jmp--split .home-jmp__intro {
     grid-template-columns: 1fr;
   }
 
@@ -946,9 +1029,9 @@ a[title="Will Hotten"] {
     padding: 1.15rem;
   }
 
-  .home-landing__hero-frame {
+  .home-landing__hero-shell {
     gap: 1.2rem;
-    padding: 1.5rem 0 1.55rem;
+    padding: 1.5rem;
   }
 
   .education-header {

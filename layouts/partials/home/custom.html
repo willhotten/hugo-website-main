@@ -8,13 +8,13 @@
       <span class="home-landing__beam"></span>
       <span class="home-landing__gridline"></span>
     </div>
-    <div class="home-landing__hero-frame">
+    <div class="home-landing__hero-shell">
       <div class="home-landing__copy">
-        {{ with $hero.subtitle }}
-          <p class="home-landing__subtitle">{{ . }}</p>
-        {{ end }}
         {{ with $hero.title }}
           <h1 class="home-landing__title">{{ . }}</h1>
+        {{ end }}
+        {{ with $hero.subtitle }}
+          <p class="home-landing__subtitle">{{ . }}</p>
         {{ end }}
         {{ with $hero.intro }}
           <p class="home-landing__intro">{{ . }}</p>
@@ -64,32 +64,32 @@
   {{ end }}
 
   {{ with .Params.featuredResearch }}
-    <section class="home-jmp">
+    {{ $variant := .variant | default "editorial" }}
+    <section class="home-jmp home-jmp--{{ $variant }}">
       <div class="home-jmp__intro">
-        <div class="home-jmp__meta">
-          <span class="research-pill">{{ .label }}</span>
-          {{ with .tag }}
-            <span class="research-status">{{ . }}</span>
-          {{ else }}
-            {{ with .status }}
-              <span class="research-status">{{ . }}</span>
+        <div class="home-jmp__body">
+          <div class="home-jmp__meta">
+            <span class="research-pill">{{ .label }}</span>
+          </div>
+          <h2>{{ .title }}</h2>
+          <p class="home-jmp__summary">{{ .summary }}</p>
+          <div class="home-jmp__actions">
+            {{ with .primaryCtaHref }}
+              <a class="home-landing__button home-landing__button--primary" href="{{ . }}">
+                {{ $.Params.featuredResearch.primaryCtaLabel }}
+              </a>
             {{ end }}
-          {{ end }}
+            <span class="home-landing__button home-jmp__placeholder" aria-disabled="true">Paper (coming soon)</span>
+            <span class="home-landing__button home-jmp__placeholder" aria-disabled="true">Slides (coming soon)</span>
+          </div>
         </div>
-        <h2>{{ .title }}</h2>
-        <p>{{ .summary }}</p>
-        <div class="home-jmp__actions">
-          {{ with .primaryCtaHref }}
-            <a class="home-landing__button home-landing__button--primary" href="{{ . }}">
-              {{ $.Params.featuredResearch.primaryCtaLabel }}
-            </a>
+        {{ if eq $variant "split" }}
+          {{ with .image }}
+            <div class="home-jmp__visual">
+              <img src="{{ . }}" alt="{{ $.Params.featuredResearch.imageAlt | default `Featured research visual` }}">
+            </div>
           {{ end }}
-          {{ with $.Params.featuredResearch.secondaryCtaHref }}
-            <a class="home-landing__button home-landing__button--tertiary" href="{{ . }}">
-              {{ $.Params.featuredResearch.secondaryCtaLabel }}
-            </a>
-          {{ end }}
-        </div>
+        {{ end }}
       </div>
     </section>
   {{ end }}
@@ -97,8 +97,7 @@
   {{ with .Params.cards }}
     <section class="home-landing__secondary" aria-label="Site sections">
       <div class="home-landing__secondary-header">
-        <p class="home-section-label">Selected Projects</p>
-        <h2>Additional work</h2>
+        <p class="home-section-label">Current Projects</p>
       </div>
       <div class="home-landing__grid">
       {{ range . }}
@@ -116,14 +115,20 @@
             {{ with .submeta }}
               <p class="home-card__submeta">{{ . }}</p>
             {{ end }}
+            {{ with .coauthors }}
+              <p class="home-card__coauthors">With {{ . }}</p>
+            {{ end }}
             <h3>{{ .title }}</h3>
             {{ with .summary }}
               <p>{{ . }}</p>
             {{ end }}
-            <span class="home-card__cta">Open research</span>
+            <span class="home-card__cta">Research details</span>
           </div>
         </a>
       {{ end }}
+      </div>
+      <div class="home-landing__secondary-actions">
+        <a class="home-landing__button home-landing__button--secondary" href="/research/">View all research</a>
       </div>
     </section>
   {{ end }}
