@@ -19,7 +19,9 @@ images = ["/img/og/home.svg"]
 
 [featuredResearch]
   label = "Featured Research"
-  tag = "Draft available on request"
+  tag = "Working paper"
+  year = "2026"
+  coauthors = "Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin"
   variant = "split"
   title = "Financial conditions and green R&D"
   summary = "This project studies specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms."
@@ -28,8 +30,8 @@ images = ["/img/og/home.svg"]
   primaryCtaHref = "/research/"
   secondaryCtaLabel = "Request draft"
   secondaryCtaHref = "mailto:whotten@london.edu?subject=Financial%20conditions%20and%20green%20R%26D"
-  image = "/img/thumbs/timeseries-wave.svg"
-  imageAlt = "Abstract thumbnail for featured research"
+  image = "/img/pexels-volkerthimm-28271678.jpg"
+  imageAlt = "Offshore wind turbine above cloud cover"
 
 [[agenda]]
   title = "Empirical macro & firm heterogeneity"
@@ -44,21 +46,22 @@ images = ["/img/og/home.svg"]
   text = "How financing conditions, venture capital, and macro shocks influence adjustment over time."
 
 [[cards]]
-  title = "Follow-up project on green innovation"
+  title = "Macroeconomic policy and the green transition"
   href = "/research/"
-  summary = "Early-stage work extending the green innovation agenda beyond the current featured project."
-  image = "/img/thumbs/branching-investment.svg"
-  imageAlt = "Abstract thumbnail suggesting branching investment paths"
+  summary = "Work in progress on how episodes of structural change such as the green transition should be managed with monetary and fiscal policy."
+  image = "/img/alexey-demidov-TqpRxyNcV4g-unsplash.jpg"
+  imageAlt = "Green landscape photograph"
   imageStyle = "cover"
   meta = "Early-stage project"
-  submeta = "Innovation / climate transition"
+  submeta = "Macro policy / climate transition"
+  coauthors = "Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin"
 
 [[cards]]
   title = "Defence spending in the United Kingdom"
   href = "/research/"
   summary = "Exploratory work on how defence expenditure transmits through investment and activity in the UK."
-  image = "/img/thumbs/network-grid.svg"
-  imageAlt = "Abstract thumbnail suggesting firm networks"
+  image = "/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg"
+  imageAlt = "Historical image associated with defence production"
   imageStyle = "cover"
   meta = "Early-stage project"
   submeta = "Public spending / macro adjustment"
@@ -67,8 +70,8 @@ images = ["/img/og/home.svg"]
   title = "The macroeconomic impact of venture capital"
   href = "/research/"
   summary = "Early-stage work on how venture capital shapes innovation, investment, and aggregate outcomes."
-  image = "/img/thumbs/capital-flows.svg"
-  imageAlt = "Abstract thumbnail suggesting capital flows"
+  image = "/img/chris-ghinda-dv2Tyn98_ok-unsplash.jpg"
+  imageAlt = "Photograph associated with venture capital project"
   imageStyle = "cover"
   meta = "Early-stage project"
   submeta = "Finance / macroeconomics"

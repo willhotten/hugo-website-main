@@ -478,7 +478,9 @@ a[title="Will Hotten"] {
 }
 
 .home-jmp__visual {
+  position: relative;
   overflow: hidden;
+  aspect-ratio: 16 / 9;
   border: 1px solid rgba(17, 17, 17, 0.08);
   border-radius: 0.8rem;
   background: linear-gradient(180deg, #f7f7f2 0%, #f2f1eb 100%);
@@ -489,6 +491,7 @@ a[title="Will Hotten"] {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: grayscale(1) contrast(1.03) brightness(0.98);
 }
 
 .home-jmp h2,
@@ -517,6 +520,33 @@ a[title="Will Hotten"] {
   font-size: 1rem;
   line-height: 1.66;
   color: var(--site-ink-soft);
+}
+
+.home-jmp__coauthors {
+  margin: 0.18rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.research-card--feature p.research-card__coauthors {
+  margin: 0.18rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.research-card:not(.research-card--feature) p.research-card__coauthors {
+  margin: 0.18rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  color: #666;
 }
 
 .home-jmp__note {
@@ -584,6 +614,7 @@ a[title="Will Hotten"] {
 
 .home-card__media,
 .research-card__media {
+  position: relative;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   background: linear-gradient(180deg, #f7f7f2 0%, #f2f1eb 100%);
@@ -600,6 +631,11 @@ a[title="Will Hotten"] {
   object-fit: cover;
   border-radius: 0;
   background: linear-gradient(180deg, #f8f6f1 0%, #ece7df 100%);
+  filter: grayscale(1) contrast(1.03) brightness(0.98);
+}
+
+.research-image--grayscale {
+  filter: grayscale(1) contrast(1.02);
 }
 
 .home-card__body {
@@ -625,12 +661,13 @@ a[title="Will Hotten"] {
   color: #666666;
 }
 
-.home-card__coauthors {
-  margin: -0.2rem 0 0;
-  font-family: var(--font-ui);
-  font-size: 0.83rem;
+.home-card__body p.home-card__coauthors {
+  margin: 0.18rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
   line-height: 1.45;
-  color: #666666;
+  color: #666;
 }
 
 .home-card__body h3 {
@@ -708,12 +745,8 @@ a[title="Will Hotten"] {
   grid-column: span 2;
 }
 
-.research-card__media {
-  aspect-ratio: 16 / 8;
-}
-
 .research-card__media--placeholder {
-  padding: 0.7rem;
+  padding: 0;
 }
 
 .research-card__body {

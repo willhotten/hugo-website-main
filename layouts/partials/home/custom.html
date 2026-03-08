@@ -73,8 +73,14 @@
             {{ with .tag }}
               <span class="research-status">{{ . }}</span>
             {{ end }}
+            {{ with .year }}
+              <span class="research-status">{{ . }}</span>
+            {{ end }}
           </div>
           <h2>{{ .title }}</h2>
+          {{ with .coauthors }}
+            <p class="home-jmp__coauthors">With {{ . }}</p>
+          {{ end }}
           <p class="home-jmp__summary">{{ .summary }}</p>
           {{ with .note }}
             <p class="home-jmp__note">{{ . }}</p>
@@ -124,10 +130,10 @@
             {{ with .submeta }}
               <p class="home-card__submeta">{{ . }}</p>
             {{ end }}
+            <h3>{{ .title }}</h3>
             {{ with .coauthors }}
               <p class="home-card__coauthors">With {{ . }}</p>
             {{ end }}
-            <h3>{{ .title }}</h3>
             {{ with .summary }}
               <p>{{ . }}</p>
             {{ end }}

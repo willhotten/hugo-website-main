@@ -31,6 +31,7 @@ Status convention:
 - `03 Research Grid` is visually established, but research metadata can still be strengthened once coauthors, dates, and real outputs are confirmed.
 - `04 CV Page` is substantially improved, but the page no longer exposes direct contact details and may need one final polish pass.
 - `07 Research Credibility Pass` removed dead research actions and improved academic phrasing, but final metadata depends on confirmed coauthors, dates, and outputs.
+- `07 Research Credibility Pass` now also includes real imagery for the featured project and selected early-stage projects, but final metadata still depends on confirmed coauthors, dates, and outputs.
 - `08 Teaching Simplification Pass` is complete; future work is limited to swapping placeholder states for real slide links as materials are uploaded.
 - `09 Cross-Page Consistency Pass` is complete; remaining site work is primarily future content and materials rather than shared UI inconsistency.
 
