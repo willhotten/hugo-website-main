@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract thumbnail suggesting a network grid</title>
+  <desc id="desc">Abstract node network with a restrained acid highlight.</desc>
+  <rect width="1200" height="675" fill="#F7F5F0"/>
+  <g fill="none" stroke="#161616" stroke-width="2">
+    <path d="M223 195l180 94 143-132 170 87 165-67 142 110"/>
+    <path d="M223 462l180-94 143 132 170-87 165 67 142-110"/>
+    <path d="M403 289v79"/>
+    <path d="M546 157v343" opacity=".55"/>
+    <path d="M716 244v169" opacity=".55"/>
+    <path d="M881 177v303" opacity=".55"/>
+    <path d="M223 195v267" opacity=".2"/>
+    <path d="M1023 287v83" opacity=".2"/>
+    <circle cx="223" cy="195" r="12"/>
+    <circle cx="403" cy="289" r="12"/>
+    <circle cx="546" cy="157" r="12"/>
+    <circle cx="716" cy="244" r="12"/>
+    <circle cx="881" cy="177" r="12"/>
+    <circle cx="1023" cy="287" r="12"/>
+    <circle cx="223" cy="462" r="12"/>
+    <circle cx="403" cy="368" r="12"/>
+    <circle cx="546" cy="500" r="12"/>
+    <circle cx="716" cy="413" r="12"/>
+    <circle cx="881" cy="480" r="12"/>
+    <circle cx="1023" cy="370" r="12"/>
+  </g>
+  <circle cx="546" cy="500" r="22" fill="rgba(163,230,53,.22)"/>
+  <path d="M138 120h180" stroke="#161616" stroke-width="3" stroke-linecap="round"/>
+  <path d="M138 146h74" stroke="#A3E635" stroke-width="4" stroke-linecap="round"/>
+</svg>

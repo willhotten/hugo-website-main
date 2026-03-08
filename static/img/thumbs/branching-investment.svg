@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract thumbnail suggesting branching investment paths</title>
+  <desc id="desc">Monochrome branching linework with a restrained acid highlight.</desc>
+  <rect width="1200" height="675" fill="#F7F5F0"/>
+  <g fill="none" stroke="#161616" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 544h164"/>
+    <path d="M344 544c77 0 111-50 111-108V166"/>
+    <path d="M455 286c88 0 144-58 144-126"/>
+    <path d="M455 400c102 0 175 56 175 126"/>
+    <path d="M455 344h258"/>
+    <path d="M713 344c87 0 135-49 135-111"/>
+    <path d="M713 344c89 0 161 53 161 145"/>
+    <path d="M874 489h150"/>
+    <path d="M848 233h128"/>
+    <circle cx="344" cy="544" r="10"/>
+    <circle cx="455" cy="344" r="12"/>
+    <circle cx="713" cy="344" r="12"/>
+    <circle cx="874" cy="489" r="10"/>
+    <circle cx="848" cy="233" r="10"/>
+  </g>
+  <circle cx="630" cy="526" r="26" fill="rgba(163,230,53,.22)"/>
+  <path d="M140 118h194" stroke="#161616" stroke-width="3" stroke-linecap="round"/>
+  <path d="M140 144h92" stroke="#A3E635" stroke-width="4" stroke-linecap="round"/>
+</svg>

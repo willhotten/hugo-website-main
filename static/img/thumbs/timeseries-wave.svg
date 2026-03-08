@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract thumbnail suggesting time series movement</title>
+  <desc id="desc">Layered linework evoking time series variation with a restrained acid highlight.</desc>
+  <rect width="1200" height="675" fill="#F7F5F0"/>
+  <g fill="none" stroke="#161616" stroke-width="2.5" stroke-linecap="round">
+    <path d="M120 424c88-36 171-86 250-86 102 0 160 86 266 86 112 0 149-176 268-176 67 0 112 41 196 41"/>
+    <path d="M120 505c88-36 171-86 250-86 102 0 160 86 266 86 112 0 149-176 268-176 67 0 112 41 196 41" opacity=".35"/>
+    <path d="M120 340h958" opacity=".15"/>
+    <path d="M120 258h958" opacity=".15"/>
+    <path d="M120 176h958" opacity=".15"/>
+    <circle cx="370" cy="338" r="11"/>
+    <circle cx="636" cy="424" r="11"/>
+    <circle cx="904" cy="248" r="11"/>
+  </g>
+  <circle cx="904" cy="248" r="24" fill="rgba(163,230,53,.22)"/>
+  <path d="M124 116h168" stroke="#161616" stroke-width="3" stroke-linecap="round"/>
+  <path d="M124 142h88" stroke="#A3E635" stroke-width="4" stroke-linecap="round"/>
+</svg>

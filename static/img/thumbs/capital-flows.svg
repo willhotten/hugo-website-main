@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract thumbnail suggesting capital flows</title>
+  <desc id="desc">Monochrome network and flow lines with a restrained acid highlight.</desc>
+  <rect width="1200" height="675" fill="#F7F5F0"/>
+  <g fill="none" stroke="#161616" stroke-width="2">
+    <path d="M110 520c120-74 220-109 321-109 108 0 189 32 275 32 109 0 210-47 384-174"/>
+    <path d="M110 458c132-60 237-90 327-90 96 0 182 26 278 26 113 0 213-42 378-156" opacity=".65"/>
+    <path d="M164 222h868" opacity=".2"/>
+    <path d="M164 304h868" opacity=".2"/>
+    <path d="M164 386h868" opacity=".2"/>
+    <path d="M164 468h868" opacity=".2"/>
+    <circle cx="268" cy="416" r="13"/>
+    <circle cx="493" cy="405" r="13"/>
+    <circle cx="748" cy="377" r="13"/>
+    <circle cx="952" cy="287" r="13"/>
+  </g>
+  <circle cx="748" cy="377" r="20" fill="rgba(163,230,53,.24)"/>
+  <path d="M120 112h170" stroke="#161616" stroke-width="3" stroke-linecap="round"/>
+  <path d="M120 138h84" stroke="#A3E635" stroke-width="4" stroke-linecap="round"/>
+</svg>
