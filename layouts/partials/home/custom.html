@@ -70,17 +70,26 @@
         <div class="home-jmp__body">
           <div class="home-jmp__meta">
             <span class="research-pill">{{ .label }}</span>
+            {{ with .tag }}
+              <span class="research-status">{{ . }}</span>
+            {{ end }}
           </div>
           <h2>{{ .title }}</h2>
           <p class="home-jmp__summary">{{ .summary }}</p>
+          {{ with .note }}
+            <p class="home-jmp__note">{{ . }}</p>
+          {{ end }}
           <div class="home-jmp__actions">
             {{ with .primaryCtaHref }}
               <a class="home-landing__button home-landing__button--primary" href="{{ . }}">
                 {{ $.Params.featuredResearch.primaryCtaLabel }}
               </a>
             {{ end }}
-            <span class="home-landing__button home-jmp__placeholder" aria-disabled="true">Paper (coming soon)</span>
-            <span class="home-landing__button home-jmp__placeholder" aria-disabled="true">Slides (coming soon)</span>
+            {{ with .secondaryCtaHref }}
+              <a class="home-landing__button home-landing__button--secondary" href="{{ . }}">
+                {{ $.Params.featuredResearch.secondaryCtaLabel }}
+              </a>
+            {{ end }}
           </div>
         </div>
         {{ if eq $variant "split" }}
