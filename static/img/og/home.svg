@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Will Hotten homepage social preview</title>
+  <desc id="desc">Typographic social preview card for the homepage of Will Hotten.</desc>
+  <rect width="1200" height="630" fill="#FAFAF8"/>
+  <rect x="72" y="64" width="1056" height="502" rx="28" fill="none" stroke="#D7DDD0" stroke-width="2"/>
+  <rect x="848" y="112" width="180" height="180" rx="24" fill="#EEF2E7"/>
+  <rect x="902" y="166" width="72" height="72" rx="36" fill="none" stroke="#2F5A18" stroke-width="2"/>
+  <path d="M866 350h212" stroke="#2F5A18" stroke-width="3" stroke-linecap="round"/>
+  <path d="M866 380h168" stroke="#A7B793" stroke-width="2" stroke-linecap="round"/>
+  <path d="M866 410h196" stroke="#A7B793" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 510h1056" stroke="#D7DDD0" stroke-width="2"/>
+  <text x="100" y="132" fill="#2F5A18" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="22" letter-spacing="4">WILL HOTTEN</text>
+  <text x="100" y="252" fill="#161616" font-family="Georgia, 'Times New Roman', serif" font-size="78">Applied macroeconomics</text>
+  <text x="100" y="330" fill="#161616" font-family="Georgia, 'Times New Roman', serif" font-size="78">innovation and climate</text>
+  <text x="100" y="396" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="30">PhD student in Economics at London Business School</text>
+  <text x="100" y="448" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="28">Firm heterogeneity, financing conditions, and long-run investment outcomes</text>
+  <text x="100" y="548" fill="#4D5550" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="24" letter-spacing="2">HOME</text>
+</svg>

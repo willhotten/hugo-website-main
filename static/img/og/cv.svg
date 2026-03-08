@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Will Hotten CV social preview</title>
+  <desc id="desc">Typographic social preview card for the CV page of Will Hotten.</desc>
+  <rect width="1200" height="630" fill="#FAFAF8"/>
+  <rect x="72" y="64" width="1056" height="502" rx="28" fill="none" stroke="#D7DDD0" stroke-width="2"/>
+  <rect x="830" y="112" width="228" height="300" rx="22" fill="#FFFFFF" stroke="#D7DDD0" stroke-width="2"/>
+  <path d="M870 182h148" stroke="#2F5A18" stroke-width="3" stroke-linecap="round"/>
+  <path d="M870 228h148" stroke="#C1C9B7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M870 260h118" stroke="#C1C9B7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M870 314h148" stroke="#C1C9B7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M870 346h138" stroke="#C1C9B7" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 510h1056" stroke="#D7DDD0" stroke-width="2"/>
+  <text x="100" y="132" fill="#2F5A18" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="22" letter-spacing="4">WILL HOTTEN</text>
+  <text x="100" y="252" fill="#161616" font-family="Georgia, 'Times New Roman', serif" font-size="88">Curriculum Vitae</text>
+  <text x="100" y="336" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="32">Education, appointments, teaching, and research profile</text>
+  <text x="100" y="388" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="28">Canonical PDF plus a skim-first academic overview</text>
+  <text x="100" y="548" fill="#4D5550" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="24" letter-spacing="2">CV</text>
+</svg>

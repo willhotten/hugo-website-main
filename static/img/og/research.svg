@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Will Hotten research social preview</title>
+  <desc id="desc">Typographic social preview card for the research page of Will Hotten.</desc>
+  <rect width="1200" height="630" fill="#FAFAF8"/>
+  <rect x="72" y="64" width="1056" height="502" rx="28" fill="none" stroke="#D7DDD0" stroke-width="2"/>
+  <path d="M826 118h242v68H826z" fill="#EEF2E7"/>
+  <path d="M826 214h242v164" fill="none" stroke="#2F5A18" stroke-width="3"/>
+  <path d="M852 354l52-78 52 34 64-102" fill="none" stroke="#2F5A18" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="852" cy="354" r="7" fill="#2F5A18"/>
+  <circle cx="904" cy="276" r="7" fill="#2F5A18"/>
+  <circle cx="956" cy="310" r="7" fill="#2F5A18"/>
+  <circle cx="1020" cy="208" r="7" fill="#2F5A18"/>
+  <path d="M72 510h1056" stroke="#D7DDD0" stroke-width="2"/>
+  <text x="100" y="132" fill="#2F5A18" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="22" letter-spacing="4">WILL HOTTEN</text>
+  <text x="100" y="252" fill="#161616" font-family="Georgia, 'Times New Roman', serif" font-size="88">Research</text>
+  <text x="100" y="336" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="32">Featured work, active projects, and pipeline research</text>
+  <text x="100" y="388" fill="#4D5550" font-family="Inter, Arial, sans-serif" font-size="28">Applied macroeconomics, innovation, finance, and the climate transition</text>
+  <text x="100" y="548" fill="#4D5550" font-family="'IBM Plex Mono', 'Courier New', monospace" font-size="24" letter-spacing="2">RESEARCH</text>
+</svg>
