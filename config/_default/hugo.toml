@@ -98,9 +98,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "Will Hotten is a PhD student in Economics at London Business School. His research focuses on applied macroeconomics, innovation, the climate transition, and firm-level responses to policy."
   # website images for Open Graph and Twitter Cards
   images = ["/img/favicon_old/headshot-cropped.png"]
-  # load custom head
-  customHead = ["head/custom.html"]
-
   # Header config
   [params.header]
     # desktop header mode ["fixed", "normal", "auto"]

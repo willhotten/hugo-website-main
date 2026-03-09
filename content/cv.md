@@ -27,6 +27,11 @@ images = ["/img/og/cv.svg"]
     <h3>Download PDF</h3>
     <p>Applications and references</p>
   </a>
+  <a class="cv-summary-card cv-summary-card--contact cv-contact-card" href="#" data-email-user="d2hvdHRlbg==" data-email-domain="bG9uZG9uLmVkdQ==" data-email-subject="QWNhZGVtaWMgY29ycmVzcG9uZGVuY2U=">
+    <p class="cv-summary-card__label">Contact</p>
+    <h3>Email me</h3>
+    <p>Get in touch</p>
+  </a>
 </div>
 
 <section class="cv-section">
@@ -36,7 +41,9 @@ images = ["/img/og/cv.svg"]
   <div class="cv-section__content">
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">LBS</div>
+        <div class="education-timeline">
+          <div class="education-mark">2022</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2022 – Current</p>
           <h3>London Business School</h3>
@@ -47,7 +54,9 @@ images = ["/img/og/cv.svg"]
     </div>
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">LSE</div>
+        <div class="education-timeline">
+          <div class="education-mark">2019</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2019 – 2020</p>
           <h3>London School of Economics and Political Science</h3>
@@ -57,7 +66,9 @@ images = ["/img/og/cv.svg"]
     </div>
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">LSE</div>
+        <div class="education-timeline">
+          <div class="education-mark">2016</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2016 – 2019</p>
           <h3>London School of Economics and Political Science</h3>
@@ -75,7 +86,9 @@ images = ["/img/og/cv.svg"]
   <div class="cv-section__content">
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">TA</div>
+        <div class="education-timeline">
+          <div class="education-mark">2024</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2024 – Current</p>
           <h3>London Business School</h3>
@@ -94,7 +107,9 @@ images = ["/img/og/cv.svg"]
   <div class="cv-section__content">
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">PA</div>
+        <div class="education-timeline">
+          <div class="education-mark">2021</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2021 – 2022</p>
           <h3>PA Consulting</h3>
@@ -104,7 +119,9 @@ images = ["/img/og/cv.svg"]
     </div>
     <div class="education-item">
       <div class="education-header education-header--text-only">
-        <div class="education-mark">RA</div>
+        <div class="education-timeline">
+          <div class="education-mark">2020</div>
+        </div>
         <div class="education-copy">
           <p class="education-kicker">2020 – 2021</p>
           <h3>London Business School</h3>
@@ -114,3 +131,26 @@ images = ["/img/og/cv.svg"]
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".cv-contact-card").forEach(function (card) {
+      var user = card.dataset.emailUser ? atob(card.dataset.emailUser) : "";
+      var domain = card.dataset.emailDomain ? atob(card.dataset.emailDomain) : "";
+      var subject = card.dataset.emailSubject ? atob(card.dataset.emailSubject) : "";
+
+      if (!user || !domain) return;
+
+      var address = user + "@" + domain;
+      var href = "mailto:" + address;
+
+      if (subject) {
+        href += "?subject=" + encodeURIComponent(subject);
+      }
+
+      card.href = href;
+      card.setAttribute("aria-label", "Email me");
+      card.setAttribute("title", "Open email contact");
+    });
+  });
+</script>

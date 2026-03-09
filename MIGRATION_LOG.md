@@ -6,12 +6,13 @@
 - The previous phantom `blowfish` language configuration was removed by deleting `config/_default/hugo.blowfish.toml`.
 - Single-page rendering was fixed by aligning the local `layouts/_default/single.html` override with Blowfish's expected block structure.
 - Page-level metadata has been added for homepage, research, CV, and teaching.
+- Header and head customisations now use Blowfish's active extension points (`layouts/partials/header/basic.html` and `layouts/partials/extend-head.html`) rather than stale legacy hooks.
 
 ## Ticket Status
 - `01 Homepage Hero` — Completed
 - `02 Featured Research Module` — Partial
 - `03 Research Grid` — Partial
-- `04 CV Page` — Partial
+- `04 CV Page` — Completed
 - `05 Nav Microinteractions` — Completed
 - `06 SEO and OG Images` — Completed
 - `07 Research Credibility Pass` — Partial
@@ -29,7 +30,7 @@ Status convention:
 ## Status Notes
 - `02 Featured Research Module` is structurally in place; remaining work is limited to future decisions on whether real PDF, slides, and code links should be exposed once they exist.
 - `03 Research Grid` is visually established, but research metadata can still be strengthened once coauthors, dates, and real outputs are confirmed.
-- `04 CV Page` is substantially improved, but the page no longer exposes direct contact details and may need one final polish pass.
+- `04 CV Page` is complete; the page now restores contact through a subdued email action, keeps the PDF as the primary CTA, and uses a clearer chronology-first scan pattern in place of faux-logo marks.
 - `07 Research Credibility Pass` removed dead research actions, improved academic phrasing, added confirmed coauthors and year for the featured paper, and now uses real imagery for the featured project and selected early-stage projects. It remains partial because final metadata and output links still depend on confirmed titles, coauthors, dates, and materials for the non-featured projects.
 - `08 Teaching Simplification Pass` is complete; future work is limited to swapping placeholder states for real slide links as materials are uploaded.
 - `09 Cross-Page Consistency Pass` is complete; remaining site work is primarily future content and materials rather than shared UI inconsistency.
@@ -44,6 +45,7 @@ Status convention:
 - Homepage, Research, CV, and Teaching now point to explicit branded OG image assets.
 - Main navigation is now sourced from `config/_default/menus.en.toml` rather than duplicated in `config/_default/hugo.toml`.
 - Homepage, Research, CV, Teaching, and the shared header have all received local design refinements in `assets/css/custom.css` and page content files.
+- Stale `customHead` configuration and unused legacy head partials were removed so local customisations now map cleanly to Blowfish's actual render path.
 
 ## Current Warnings
 - Hugo emits a version-compatibility warning for Blowfish:

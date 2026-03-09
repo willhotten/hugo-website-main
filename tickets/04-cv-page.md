@@ -1,7 +1,12 @@
 # Ticket 04: CV Page
 
 ## Status
-Partial
+Completed
+
+## Progress Notes
+- Direct contact is restored through a subdued email contact action on the page while keeping the raw address out of the initial HTML.
+- The left-hand card marks were repurposed into a clearer year-led chronology so the page scans more like a timeline than a set of pseudo-logo blocks.
+- The PDF download remains the dominant action in the summary grid.
 
 ## Goal
 Refine the CV page into a skim-first academic profile page with the PDF as the dominant action.
