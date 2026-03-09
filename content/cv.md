@@ -27,7 +27,7 @@ images = ["/img/og/cv.svg"]
     <h3>Download PDF</h3>
     <p>Applications and references</p>
   </a>
-  <a class="cv-summary-card cv-summary-card--contact cv-contact-card" href="#" data-email-user="d2hvdHRlbg==" data-email-domain="bG9uZG9uLmVkdQ==" data-email-subject="QWNhZGVtaWMgY29ycmVzcG9uZGVuY2U=">
+  <a class="cv-summary-card cv-summary-card--contact js-email-link" href="#" data-email-user="d2hvdHRlbg==" data-email-domain="bG9uZG9uLmVkdQ==" data-email-subject="QWNhZGVtaWMgY29ycmVzcG9uZGVuY2U=">
     <p class="cv-summary-card__label">Contact</p>
     <h3>Email me</h3>
     <p>Get in touch</p>
@@ -131,26 +131,3 @@ images = ["/img/og/cv.svg"]
     </div>
   </div>
 </section>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".cv-contact-card").forEach(function (card) {
-      var user = card.dataset.emailUser ? atob(card.dataset.emailUser) : "";
-      var domain = card.dataset.emailDomain ? atob(card.dataset.emailDomain) : "";
-      var subject = card.dataset.emailSubject ? atob(card.dataset.emailSubject) : "";
-
-      if (!user || !domain) return;
-
-      var address = user + "@" + domain;
-      var href = "mailto:" + address;
-
-      if (subject) {
-        href += "?subject=" + encodeURIComponent(subject);
-      }
-
-      card.href = href;
-      card.setAttribute("aria-label", "Email me");
-      card.setAttribute("title", "Open email contact");
-    });
-  });
-</script>

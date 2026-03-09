@@ -7,6 +7,7 @@
 - Single-page rendering was fixed by aligning the local `layouts/_default/single.html` override with Blowfish's expected block structure.
 - Page-level metadata has been added for homepage, research, CV, and teaching.
 - Header and head customisations now use Blowfish's active extension points (`layouts/partials/header/basic.html` and `layouts/partials/extend-head.html`) rather than stale legacy hooks.
+- Public-facing email actions on the homepage, research page, and CV page now avoid exposing the raw address in initial HTML while preserving click-to-email behaviour.
 
 ## Ticket Status
 - `01 Homepage Hero` — Completed
@@ -46,6 +47,7 @@ Status convention:
 - Main navigation is now sourced from `config/_default/menus.en.toml` rather than duplicated in `config/_default/hugo.toml`.
 - Homepage, Research, CV, Teaching, and the shared header have all received local design refinements in `assets/css/custom.css` and page content files.
 - Stale `customHead` configuration and unused legacy head partials were removed so local customisations now map cleanly to Blowfish's actual render path.
+- Homepage, research, and CV contact actions now use delayed client-side mailto assembly so the deployed HTML no longer contains the raw email address.
 
 ## Current Warnings
 - Hugo emits a version-compatibility warning for Blowfish:

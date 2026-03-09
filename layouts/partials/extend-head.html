@@ -1,3 +1,25 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".js-email-link").forEach(function (link) {
+      var user = link.dataset.emailUser ? atob(link.dataset.emailUser) : "";
+      var domain = link.dataset.emailDomain ? atob(link.dataset.emailDomain) : "";
+      var subject = link.dataset.emailSubject ? atob(link.dataset.emailSubject) : "";
+
+      if (!user || !domain) return;
+
+      var address = user + "@" + domain;
+      var href = "mailto:" + address;
+
+      if (subject) {
+        href += "?subject=" + encodeURIComponent(subject);
+      }
+
+      link.href = href;
+      link.setAttribute("aria-label", "Email me");
+      link.setAttribute("title", "Open email contact");
+    });
+  });
+</script>

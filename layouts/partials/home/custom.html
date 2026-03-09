@@ -30,10 +30,20 @@
               {{ $hero.secondaryCtaLabel | default "Learn more" }}
             </a>
           {{ end }}
-          {{ with $hero.tertiaryCtaHref }}
-            <a class="home-landing__button home-landing__button--tertiary" href="{{ . }}">
+          {{ if and $hero.tertiaryEmailUser $hero.tertiaryEmailDomain }}
+            <a
+              class="home-landing__button home-landing__button--tertiary js-email-link"
+              href="#"
+              data-email-user="{{ $hero.tertiaryEmailUser }}"
+              data-email-domain="{{ $hero.tertiaryEmailDomain }}">
               {{ $hero.tertiaryCtaLabel | default "Contact" }}
             </a>
+          {{ else }}
+            {{ with $hero.tertiaryCtaHref }}
+              <a class="home-landing__button home-landing__button--tertiary" href="{{ . }}">
+                {{ $hero.tertiaryCtaLabel | default "Contact" }}
+              </a>
+            {{ end }}
           {{ end }}
         </div>
       </div>
@@ -91,10 +101,21 @@
                 {{ $.Params.featuredResearch.primaryCtaLabel }}
               </a>
             {{ end }}
-            {{ with .secondaryCtaHref }}
-              <a class="home-landing__button home-landing__button--secondary" href="{{ . }}">
+            {{ if and .secondaryEmailUser .secondaryEmailDomain }}
+              <a
+                class="home-landing__button home-landing__button--secondary js-email-link"
+                href="#"
+                data-email-user="{{ .secondaryEmailUser }}"
+                data-email-domain="{{ .secondaryEmailDomain }}"
+                {{ with .secondaryEmailSubject }}data-email-subject="{{ . }}"{{ end }}>
                 {{ $.Params.featuredResearch.secondaryCtaLabel }}
               </a>
+            {{ else }}
+              {{ with .secondaryCtaHref }}
+                <a class="home-landing__button home-landing__button--secondary" href="{{ . }}">
+                  {{ $.Params.featuredResearch.secondaryCtaLabel }}
+                </a>
+              {{ end }}
             {{ end }}
           </div>
         </div>

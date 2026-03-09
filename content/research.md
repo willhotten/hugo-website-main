@@ -32,7 +32,7 @@ images:
       <p class="research-card__coauthors">With Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin</p>
       <p>This project studies specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms.</p>
       <div class="research-card__links">
-        <a class="research-link" href="mailto:whotten@london.edu?subject=Financial%20conditions%20and%20green%20R%26D">Draft available on request</a>
+        <a class="research-link js-email-link" href="#" data-email-user="d2hvdHRlbg==" data-email-domain="bG9uZG9uLmVkdQ==" data-email-subject="RmluYW5jaWFsIGNvbmRpdGlvbnMgYW5kIGdyZWVuIFImRA==">Draft available on request</a>
         <span class="research-link research-link--muted">Slides forthcoming</span>
       </div>
     </div>

@@ -15,7 +15,8 @@ images = ["/img/og/home.svg"]
   secondaryCtaLabel = "All research"
   secondaryCtaHref = "/research/"
   tertiaryCtaLabel = "Email me"
-  tertiaryCtaHref = "mailto:whotten@london.edu"
+  tertiaryEmailUser = "d2hvdHRlbg=="
+  tertiaryEmailDomain = "bG9uZG9uLmVkdQ=="
 
 [featuredResearch]
   label = "Featured Research"
@@ -29,7 +30,9 @@ images = ["/img/og/home.svg"]
   primaryCtaLabel = "Research details"
   primaryCtaHref = "/research/"
   secondaryCtaLabel = "Request draft"
-  secondaryCtaHref = "mailto:whotten@london.edu?subject=Financial%20conditions%20and%20green%20R%26D"
+  secondaryEmailUser = "d2hvdHRlbg=="
+  secondaryEmailDomain = "bG9uZG9uLmVkdQ=="
+  secondaryEmailSubject = "RmluYW5jaWFsIGNvbmRpdGlvbnMgYW5kIGdyZWVuIFImRA=="
   image = "/img/pexels-volkerthimm-28271678.jpg"
   imageAlt = "Offshore wind turbine above cloud cover"
 
