@@ -7,7 +7,7 @@ images = ["/img/og/home.svg"]
 [hero]
   title = "Will Hotten"
   subtitle = "PhD student in Economics at London Business School"
-  intro = "I study how financing conditions and macro policy shape firm investment and innovation, with interests in heterogeneous firm responses and the climate transition."
+  intro = "I work in empirical macroeconomics, studying how finance and public policy shape investment, innovation, and long-run growth. My current research examines how private finance, public spending, and macroeconomic policy steer technological change and structural adjustment, including during the climate transition."
   image = "/img/favicon_old/headshot-cropped.png"
   imageAlt = "Portrait of Will Hotten"
   primaryCtaLabel = "Download CV"
@@ -26,57 +26,53 @@ images = ["/img/og/home.svg"]
   variant = "split"
   title = "Financial conditions and green R&D"
   summary = "This project studies specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms."
-  note = "Slides forthcoming"
+  note = "Draft forthcoming"
   primaryCtaLabel = "Research details"
   primaryCtaHref = "/research/"
-  secondaryCtaLabel = "Request draft"
-  secondaryEmailUser = "d2hvdHRlbg=="
-  secondaryEmailDomain = "bG9uZG9uLmVkdQ=="
-  secondaryEmailSubject = "RmluYW5jaWFsIGNvbmRpdGlvbnMgYW5kIGdyZWVuIFImRA=="
   image = "/img/pexels-volkerthimm-28271678.jpg"
   imageAlt = "Offshore wind turbine above cloud cover"
 
 [[agenda]]
-  title = "Empirical macro & firm heterogeneity"
-  text = "Firm-level responses to monetary and fiscal policy across balance sheets, pricing, and investment."
+  title = "Empirical macroeconomics"
+  text = "Identifying macroeconomic shocks and estimating their dynamic and potentially heterogenous effects."
 
 [[agenda]]
-  title = "Innovation and the climate transition"
-  text = "Long-run investment, green innovation, and the financing frictions shaping transition dynamics."
+  title = "Innovation, finance, and long-run growth"
+  text = "How R&D, venture capital, financial conditions, and public spending shape firm dynamics and aggregate outcomes."
 
 [[agenda]]
-  title = "Financial shocks, venture capital, long-run outcomes"
-  text = "How financing conditions, venture capital, and macro shocks influence adjustment over time."
+  title = "Climate transition"
+  text = "Green innovation, climate-relevant investment, and macroeconomic policy for structural change."
 
 [[cards]]
   title = "Macroeconomic policy and the green transition"
   href = "/research/"
-  summary = "Work in progress on how episodes of structural change such as the green transition should be managed with monetary and fiscal policy."
+  summary = "Work in progress on fiscal and monetary policy during episodes of structural change, with an application to the green transition."
   image = "/img/alexey-demidov-TqpRxyNcV4g-unsplash.jpg"
   imageAlt = "Green landscape photograph"
   imageStyle = "cover"
-  meta = "Early-stage project"
-  submeta = "Macro policy / climate transition"
+  meta = "Work in progress"
+  submeta = "Macro policy / Climate transition"
   coauthors = "Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin"
+
+[[cards]]
+  title = "The macroeconomic effects of venture capital"
+  href = "/research/"
+  summary = "Solo work in progress utilising granular variation in VC deployment across large investors to study how VC financing affects macroeconomic outcomes."
+  image = "/img/chris-ghinda-dv2Tyn98_ok-unsplash.jpg"
+  imageAlt = "Photograph associated with venture capital project"
+  imageStyle = "cover"
+  meta = "Work in progress"
+  submeta = "Venture capital / Innovation"
 
 [[cards]]
   title = "Defence spending in the United Kingdom"
   href = "/research/"
-  summary = "Exploratory work on how defence expenditure transmits through investment and activity in the UK."
+  summary = "Joint work in progress on the long-run macroeconomic effects of government spending in the UK."
   image = "/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg"
   imageAlt = "Historical image associated with defence production"
   imageStyle = "cover"
   imagePosition = "center 36%"
-  meta = "Early-stage project"
-  submeta = "Public spending / macro adjustment"
-
-[[cards]]
-  title = "The macroeconomic impact of venture capital"
-  href = "/research/"
-  summary = "Early-stage work on how venture capital shapes innovation, investment, and aggregate outcomes."
-  image = "/img/chris-ghinda-dv2Tyn98_ok-unsplash.jpg"
-  imageAlt = "Photograph associated with venture capital project"
-  imageStyle = "cover"
-  meta = "Early-stage project"
-  submeta = "Finance / macroeconomics"
+  meta = "Work in progress"
+  submeta = "Fiscal policy / Economic history"
 +++
