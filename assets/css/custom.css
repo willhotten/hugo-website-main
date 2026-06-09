@@ -125,55 +125,79 @@ a[title="Will Hotten"] {
   transform: translateX(0);
 }
 
-.main-menu nav {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
+@media (min-width: 768px) {
+  .main-menu nav {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  .main-menu nav a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0;
+    padding: 0.12rem 0 !important;
+    font-family: var(--font-ui) !important;
+    font-size: 0.78rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    line-height: 1.35 !important;
+    color: rgba(17, 17, 17, 0.62) !important;
+    text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
+  }
+
+  .main-menu nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.16rem;
+    width: 100%;
+    height: 1px;
+    background: var(--site-accent-strong);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.22s ease;
+  }
+
+  .main-menu nav a:hover,
+  .main-menu nav a[aria-current="page"] {
+    color: var(--site-accent-strong) !important;
+    opacity: 1;
+  }
+
+  .main-menu nav a[aria-current="page"] {
+    font-weight: 600 !important;
+  }
+
+  .main-menu nav a:hover::after,
+  .main-menu nav a[aria-current="page"]::after {
+    transform: scaleX(1);
+  }
 }
 
-.main-menu nav a {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  border-radius: 0;
-  padding: 0.12rem 0 !important;
-  font-family: var(--font-ui) !important;
-  font-size: 0.78rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.01em;
-  text-transform: none;
-  line-height: 1.35 !important;
-  color: rgba(17, 17, 17, 0.62) !important;
-  text-decoration: none;
-  transition: color 0.2s ease, opacity 0.2s ease;
+/* Mobile menu overlay */
+[role="dialog"][aria-modal="true"] {
+  background-color: #fafaf7 !important;
 }
 
-.main-menu nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.16rem;
-  width: 100%;
-  height: 1px;
-  background: var(--site-accent-strong);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.22s ease;
+[role="dialog"][aria-modal="true"] nav a {
+  color: var(--site-ink) !important;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  padding: 0 !important;
+  line-height: inherit !important;
 }
 
-.main-menu nav a:hover,
-.main-menu nav a[aria-current="page"] {
+[role="dialog"][aria-modal="true"] nav a::after {
+  display: none !important;
+}
+
+[role="dialog"][aria-modal="true"] nav a:hover {
   color: var(--site-accent-strong) !important;
   opacity: 1;
-}
-
-.main-menu nav a[aria-current="page"] {
-  font-weight: 600 !important;
-}
-
-.main-menu nav a:hover::after,
-.main-menu nav a[aria-current="page"]::after {
-  transform: scaleX(1);
 }
 
 #site-footer {
@@ -1304,8 +1328,23 @@ details[open] .research-abstract__toggle::before {
     padding-right: 0;
   }
 
+  /* Portrait: move above text, compact and centred */
   .home-landing__visual--portrait {
-    justify-content: flex-start;
+    order: -1;
+    justify-content: center;
+    min-height: auto;
+    padding: 0;
+  }
+
+  .home-landing__portrait-frame {
+    width: min(100%, 9rem);
+    aspect-ratio: 1 / 1;
+  }
+
+  /* Featured research image: move above text */
+  .home-jmp__visual {
+    order: -1;
+    aspect-ratio: 16 / 6;
   }
 
   .research-card--feature {
