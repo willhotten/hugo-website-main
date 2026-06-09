@@ -1341,10 +1341,13 @@ details[open] .research-abstract__toggle::before {
     aspect-ratio: 1 / 1;
   }
 
-  /* Featured research image: move above text */
+  /* Featured research image: move above text, flush to card edges */
   .home-jmp__visual {
     order: -1;
-    aspect-ratio: 16 / 6;
+    aspect-ratio: 16 / 7;
+    margin: -1.2rem -1.3rem 0.4rem;
+    border: none;
+    border-radius: 0.9rem 0.9rem 0 0;
   }
 
   .research-card--feature {
