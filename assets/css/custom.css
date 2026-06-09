@@ -792,7 +792,7 @@ a[title="Will Hotten"] {
 
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: 1.2rem;
   margin-bottom: 3.25rem;
 }
@@ -883,6 +883,46 @@ a[title="Will Hotten"] {
   gap: 0.8rem;
 }
 
+.research-abstract {
+  border-top: 1px solid var(--site-border);
+  padding-top: 0.75rem;
+}
+
+.research-abstract__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--site-accent-strong);
+  user-select: none;
+}
+
+.research-abstract__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.research-abstract__toggle::before {
+  content: "▸";
+  font-size: 0.65rem;
+  transition: transform 0.18s ease;
+}
+
+details[open] .research-abstract__toggle::before {
+  transform: rotate(90deg);
+}
+
+.research-abstract__text {
+  margin: 0.7rem 0 0 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.68 !important;
+  color: var(--site-ink-soft) !important;
+}
+
 .research-link--muted {
   color: #6b7280;
 }
@@ -930,7 +970,7 @@ a[title="Will Hotten"] {
 
 .teaching-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1rem;
   margin-bottom: 3.1rem;
 }
@@ -1270,6 +1310,23 @@ a[title="Will Hotten"] {
 
   .research-card--feature {
     grid-column: span 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .research-header h1,
+  .teaching-header h1,
+  .cv-header h1 {
+    font-size: 2rem;
+  }
+
+  .teaching-header__note {
+    white-space: normal;
+    text-align: center;
+  }
+
+  .home-landing__title {
+    font-size: 2.6rem;
   }
 }
 

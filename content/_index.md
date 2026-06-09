@@ -25,10 +25,11 @@ images = ["/img/og/home.svg"]
   coauthors = "Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin"
   variant = "split"
   title = "Financial conditions and green R&D"
-  summary = "This project studies specialist green innovators and their response to tighter financial conditions, with a focus on how macro-financial shocks shape climate-relevant investment across heterogeneous firms."
-  note = "Draft forthcoming"
-  primaryCtaLabel = "Research details"
-  primaryCtaHref = "/research/"
+  summary = "This project studies how tighter financial conditions affect specialist green innovators and shape climate-relevant R&D across heterogeneous firms."
+  primaryCtaLabel = "Download draft"
+  primaryCtaHref = "/pdfs/fornaro_2026_financial.pdf"
+  secondaryCtaLabel = "Research details"
+  secondaryCtaHref = "/research/"
   image = "/img/pexels-volkerthimm-28271678.jpg"
   imageAlt = "Offshore wind turbine above cloud cover"
 
@@ -37,7 +38,7 @@ images = ["/img/og/home.svg"]
   text = "Identifying macroeconomic shocks and estimating their dynamic and potentially heterogenous effects."
 
 [[agenda]]
-  title = "Innovation, finance, and long-run growth"
+  title = "Innovation, finance, and growth"
   text = "How R&D, venture capital, financial conditions, and public spending shape firm dynamics and aggregate outcomes."
 
 [[agenda]]
