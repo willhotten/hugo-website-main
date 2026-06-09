@@ -12,6 +12,9 @@
 - Mobile layout hardened: research and teaching grids use `minmax(min(320px, 100%), 1fr)` to prevent overflow on narrow viewports; 480px heading breakpoint added.
 - Featured research card now links to a real draft PDF (`static/pdfs/fornaro_2026_financial.pdf`) and includes a collapsible abstract using native HTML `<details>`.
 - Netlify deployment configured via `netlify.toml` pinning Hugo version.
+- Mobile portrait image moved above name (CSS `order: -1`, square crop, centred).
+- Mobile menu overlay forced to cream background; desktop nav link `!important` colour rules scoped to `min-width: 768px` to prevent bleed into mobile dialog.
+- Featured research image on mobile moved flush to card top edges using negative margins and matching border-radius.
 
 ## Ticket Status
 - `01 Homepage Hero` — Completed
