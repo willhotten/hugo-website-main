@@ -15,7 +15,8 @@
 - Mobile portrait image moved above name (CSS `order: -1`, square crop, centred).
 - Mobile menu overlay forced to cream background; desktop nav link `!important` colour rules scoped to `min-width: 768px` to prevent bleed into mobile dialog.
 - Featured research image on mobile moved flush to card top edges using negative margins and matching border-radius.
-- Favicon redesigned: 333KB base64-PNG-in-SVG replaced with a 353-byte proper vector SVG (dark rounded square #161616, acid green WH monogram #a3e635, consistent with primary button style). Files updated at `static/favicon.svg` and `static/img/favicon.svg`.
+- Favicon redesigned: 333KB base64-PNG-in-SVG replaced with a 353-byte proper vector SVG (dark rounded square #161616, acid green WH monogram #a3e635, consistent with primary button style). Active icon set: `static/favicon.svg`, `static/favicon.ico`, `static/favicon-96x96.png`, `static/apple-touch-icon.png`; PWA icons at `static/img/web-app-manifest-{192,512}x{192,512}.png` wired via `static/img/site.webmanifest`.
+- Favicon cleanup: fixed broken web manifest icon paths (were pointing to `/web-app-manifest-*.png` at root; corrected to `/img/web-app-manifest-*.png`). Removed stale artefacts: old headshot-based `android-chrome-{192,512}x{192,512}.png`, `browserconfig.xml` (referenced missing mstile), `favicon.zip`, working files `favicon-WH{-trans}.png`, duplicate copies of active icons that had been left in `static/img/`, and the entire `static/img/favicon_old/` archive.
 - LinkedIn button added to homepage hero linking to Will's LinkedIn profile.
 - Paper title case standardised across all research cards on homepage and research page.
 - PDF redirect resolved: `fornaro_2026_financial.pdf` replaced in place with the updated file; old URL remains valid.
