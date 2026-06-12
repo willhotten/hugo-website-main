@@ -15,6 +15,10 @@
 - Mobile portrait image moved above name (CSS `order: -1`, square crop, centred).
 - Mobile menu overlay forced to cream background; desktop nav link `!important` colour rules scoped to `min-width: 768px` to prevent bleed into mobile dialog.
 - Featured research image on mobile moved flush to card top edges using negative margins and matching border-radius.
+- Favicon redesigned: 333KB base64-PNG-in-SVG replaced with a 353-byte proper vector SVG (dark rounded square #161616, acid green WH monogram #a3e635, consistent with primary button style). Files updated at `static/favicon.svg` and `static/img/favicon.svg`.
+- LinkedIn button added to homepage hero linking to Will's LinkedIn profile.
+- Paper title case standardised across all research cards on homepage and research page.
+- PDF redirect resolved: `fornaro_2026_financial.pdf` replaced in place with the updated file; old URL remains valid.
 
 ## Ticket Status
 - `01 Homepage Hero` — Completed
