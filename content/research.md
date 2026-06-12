@@ -28,7 +28,7 @@ images:
         <span class="research-tag">Finance</span>
         <span class="research-tag">Climate transition</span>
       </div>
-      <h3>Financial conditions and green R&amp;D</h3>
+      <h3>Financial Conditions and Green Innovation</h3>
       <p class="research-card__coauthors">With Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin</p>
       <p>This project studies how tighter financial conditions affect specialist green innovators and shape climate-relevant R&amp;D across heterogeneous firms.</p>
       <details class="research-abstract">
@@ -36,7 +36,7 @@ images:
         <p class="research-abstract__text">This paper studies how financial conditions affect research and development (R&amp;D) by firms specialized in green innovation. Using U.S. patent data matched with Compustat, we identify &#8220;green innovators&#8221; as firms with a high cumulative share of green patents. Although they account for a small share of total green patenting, these firms occupy central positions in the green-innovation ecosystem. Estimating firm-level impulse responses to exogenous changes in broad financial conditions, we find that tightening has a disproportionately large and persistent negative effect on the R&amp;D of specialized green innovators. In contrast, R&amp;D by diversified innovators and non-innovators responds only weakly. Green innovators are younger, smaller, and more dependent on external finance, suggesting that financial tightening introduces a systematic bias against upstream green technological development.</p>
       </details>
       <div class="research-card__links">
-        <a class="research-link" href="/pdfs/fornaro_2026_financial.pdf">Download draft</a>
+        <a class="research-link" href="/pdfs/green-innovation.pdf">Download draft</a>
       </div>
     </div>
   </article>
