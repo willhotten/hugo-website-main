@@ -54,7 +54,7 @@ images:
         <span class="research-tag">Climate transition</span>
         <span class="research-tag">Structural change</span>
       </div>
-      <h3>Macroeconomic policy and the green transition</h3>
+      <h3>Macroeconomic Policy and the Green Transition</h3>
       <p class="research-card__coauthors">With Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin</p>
       <p>This project develops a fiscal and monetary policy framework for studying structural change, with an application to the green transition. It asks how policy should support reallocation and innovation while managing the macroeconomic trade-offs associated with decarbonisation.</p>
     </div>
@@ -72,7 +72,7 @@ images:
         <span class="research-tag">Venture capital</span>
         <span class="research-tag">Innovation</span>
       </div>
-      <h3>The macroeconomic effects of venture capital</h3>
+      <h3>The Macroeconomic Effects of Venture Capital</h3>
       <p>This solo project studies the aggregate macroeconomic effects of venture capital utilising granular variation in VC deployment across large investors.</p>
     </div>
   </article>
@@ -89,7 +89,7 @@ images:
         <span class="research-tag">Fiscal policy</span>
         <span class="research-tag">Economic history</span>
       </div>
-      <h3>Defence spending in the United Kingdom</h3>
+      <h3>Defence Spending in the United Kingdom</h3>
       <p>Joint work in progress on the long-run macroeconomic effects of government spending in the UK.</p>
       <div class="research-card__links">
         <a class="research-link" href="https://www.economicsobservatory.com/can-defence-spending-boost-growth-and-productivity-in-the-uk">Related article with Paolo Surico</a>

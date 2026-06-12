@@ -46,7 +46,7 @@ images = ["/img/og/home.svg"]
   text = "Green innovation, climate-relevant investment, and macroeconomic policy for structural change."
 
 [[cards]]
-  title = "Macroeconomic policy and the green transition"
+  title = "Macroeconomic Policy and the Green Transition"
   href = "/research/"
   summary = "Work in progress on fiscal and monetary policy during episodes of structural change, with an application to the green transition."
   image = "/img/alexey-demidov-TqpRxyNcV4g-unsplash.jpg"
@@ -57,7 +57,7 @@ images = ["/img/og/home.svg"]
   coauthors = "Luca Fornaro, Veronica Guerrieri, and Lucrezia Reichlin"
 
 [[cards]]
-  title = "The macroeconomic effects of venture capital"
+  title = "The Macroeconomic Effects of Venture Capital"
   href = "/research/"
   summary = "Solo work in progress utilising granular variation in VC deployment across large investors to study how VC financing affects macroeconomic outcomes."
   image = "/img/chris-ghinda-dv2Tyn98_ok-unsplash.jpg"
@@ -67,7 +67,7 @@ images = ["/img/og/home.svg"]
   submeta = "Venture capital / Innovation"
 
 [[cards]]
-  title = "Defence spending in the United Kingdom"
+  title = "Defence Spending in the United Kingdom"
   href = "/research/"
   summary = "Joint work in progress on the long-run macroeconomic effects of government spending in the UK."
   image = "/img/Fitters_working_on_the_Rolls-Royce_Merlin_engine_of_a_Boulton_Paul_Defiant_of_No._125_Squadron_RAF_at_Fairwood_Common,_Wales,_January_1942._CH4607.jpg"
