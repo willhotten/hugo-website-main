@@ -17,6 +17,7 @@ images = ["/img/og/home.svg"]
   tertiaryCtaLabel = "Email me"
   tertiaryEmailUser = "d2hvdHRlbg=="
   tertiaryEmailDomain = "bG9uZG9uLmVkdQ=="
+  linkedinHref = "https://www.linkedin.com/in/will-hotten/"
 
 [featuredResearch]
   label = "Featured Research"

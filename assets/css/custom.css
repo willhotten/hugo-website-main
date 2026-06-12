@@ -420,6 +420,37 @@ a[title="Will Hotten"] {
   color: var(--site-ink);
 }
 
+.home-landing__button--linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-width: 0;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--site-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--site-ink);
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.home-landing__button--linkedin svg {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.home-landing__button--linkedin:hover {
+  transform: translateY(-2px);
+  border-color: rgba(10, 102, 194, 0.4);
+  background: rgba(10, 102, 194, 0.06);
+  color: #0a66c2;
+}
+
 .home-landing__visual--portrait {
   position: relative;
   z-index: 1;
@@ -1423,6 +1454,7 @@ details[open] .research-abstract__toggle::before {
   }
 
   .home-landing__button,
+  .home-landing__button--linkedin,
   .download-button {
     width: 100%;
   }

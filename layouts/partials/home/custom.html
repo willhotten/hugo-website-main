@@ -45,6 +45,12 @@
               </a>
             {{ end }}
           {{ end }}
+          {{ with $hero.linkedinHref }}
+            <a class="home-landing__button home-landing__button--linkedin" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+              {{ partial "icon.html" "linkedin" }}
+              LinkedIn
+            </a>
+          {{ end }}
         </div>
       </div>
       {{ with $hero.image }}
